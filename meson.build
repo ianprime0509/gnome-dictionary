@@ -1,5 +1,5 @@
 project('gnome-dictionary', 'c',
-  version: '40.alpha',
+  version: '40.0',
   default_options: [
     'buildtype=debugoptimized',
     'c_std=c99',

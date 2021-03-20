@@ -34,6 +34,12 @@
   <developer_name>The GNOME Project</developer_name>
   <translation type="gettext">gnome-dictionary</translation>
   <releases>
+    <release version="40.0" date="2021-03-20">
+      <description>
+        <p>A new stable release of the Dictionary for GNOME. Mostly bug fixes
+        and small user interface improvements.</p>
+      </description>
+    </release>
     <release version="3.26.0" date="2017-09-12">
       <description>
         <p>A new stable release of the venerable Dictionary for GNOME. This
