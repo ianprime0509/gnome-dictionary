@@ -11,7 +11,7 @@ project('gnome-dictionary', 'c',
 
 gdict_version = meson.project_version().split('.')
 gdict_major_version = gdict_version[0].to_int()
-gdict_minor_version = gdict_version[1] in ['alpha', 'beta', 'rc'] ? 0 : libgdict_version[1].to_int()
+gdict_minor_version = gdict_version[1] in ['alpha', 'beta', 'rc'] ? 0 : gdict_version[1].to_int()
 gdict_micro_version = 0
 
 gdict_is_devel = gdict_version[1] in ['alpha', 'beta', 'rc']
