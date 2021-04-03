@@ -26,7 +26,6 @@
   </screenshots>
   <update_contact>juanrgar@gmail.com</update_contact>
   <kudos>
-    <kudo>AppMenu</kudo>
     <kudo>ModernToolkit</kudo>
   </kudos>
   <launchable type="desktop-id">org.gnome.Dictionary.desktop</launchable>
