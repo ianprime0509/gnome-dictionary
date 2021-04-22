@@ -1,6 +1,6 @@
 appdata_conf = configuration_data()
 appdata_conf.set('application_id', application_id)
-i18n.merge_file('appdata',
+appdata_file = i18n.merge_file('appdata',
   input: configure_file(
     input: 'org.gnome.Dictionary.appdata.xml.in.in',
     output: 'org.gnome.Dictionary.appdata.xml.in',
@@ -18,6 +18,7 @@ if appstream_util.found()
     appstream_util,
     args: [ 'validate', '--nonet', application_id + '.appdata.xml' ],
     workdir: meson.current_build_dir(),
+    depends: appdata_file,
   )
 endif
 

@@ -3,7 +3,7 @@ subdir('appdata')
 desktop_conf = configuration_data()
 desktop_conf.set('icon', application_id)
 desktop_conf.set('application_id', application_id)
-i18n.merge_file('desktop',
+desktop_file = i18n.merge_file('desktop',
   input: configure_file(
     input: 'org.gnome.Dictionary.desktop.in.in',
     output: 'org.gnome.Dictionary.desktop.in',
@@ -22,6 +22,7 @@ if desktop_file_validate.found()
     desktop_file_validate,
     args: application_id + '.desktop',
     workdir: meson.current_build_dir(),
+    depends: desktop_file,
   )
 endif
 
