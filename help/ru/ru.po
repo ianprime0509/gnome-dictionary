@@ -3,424 +3,1570 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-dictionary HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org\n"
-"POT-Creation-Date: 2007-01-21 01:52+0300\n"
-"PO-Revision-Date: 2012-12-30 13:40+0300\n"
-"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
+"POT-Creation-Date: 2020-07-18 12:48+0000\n"
+"PO-Revision-Date: 2021-06-29 20:08+0300\n"
+"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../C/gnome-dictionary.xml:150(None)
-msgid "@@image: 'figures/gnome-dictionary-application.png'; md5=fb48a9e5863bfb2b3811df2e28489eb7"
-msgstr "@@image: 'figures/gnome-dictionary-application.png'; md5=fb48a9e5863bfb2b3811df2e28489eb7"
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Николай В. Шмырёв"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../C/gnome-dictionary.xml:179(None)
-msgid "@@image: 'figures/gnome-dictionary-lookup.png'; md5=c41c96af4de54f457a2081aad009a8d0"
-msgstr "@@image: 'figures/gnome-dictionary-lookup.png'; md5=c41c96af4de54f457a2081aad009a8d0"
+#. (itstool) path: credit/name
+#: C/definition.page:11 C/dictionary-select.page:11 C/find.page:10
+#: C/index.page:11 C/introduction.page:10 C/keyboard-shortcuts.page:11
+#: C/pref.page:9 C/print-font.page:11 C/print.page:12
+#: C/prob-retrieving-definition.page:11 C/save-definition.page:10
+#: C/similar-words.page:11 C/source-add-local.page:11 C/sources-default.page:10
+#: C/sources-delete.page:11 C/sources-edit.page:10 C/sources.page:12
+#: C/sources-select.page:12 C/text-copy.page:11
+msgid "Sindhu S"
+msgstr "Синдху С (Sindhu S)"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../C/gnome-dictionary.xml:221(None)
-msgid "@@image: 'figures/gnome-dictionary-find.png'; md5=d8bf0677084e2d9998a7942faaab5379"
-msgstr "@@image: 'figures/gnome-dictionary-find.png'; md5=d8bf0677084e2d9998a7942faaab5379"
+#. (itstool) path: credit/years
+#: C/definition.page:13 C/definition.page:18 C/dictionary-select.page:13
+#: C/dictionary-select.page:18 C/find.page:12 C/find.page:17 C/index.page:13
+#: C/introduction.page:12 C/introduction.page:17 C/keyboard-shortcuts.page:13
+#: C/keyboard-shortcuts.page:18 C/print-font.page:13 C/print-font.page:18
+#: C/print.page:14 C/print.page:19 C/prob-retrieving-definition.page:13
+#: C/prob-retrieving-definition.page:18 C/save-definition.page:12
+#: C/save-definition.page:17 C/similar-words.page:13 C/similar-words.page:18
+#: C/source-add-local.page:13 C/sources-default.page:12
+#: C/sources-default.page:17 C/sources-delete.page:13 C/sources-delete.page:18
+#: C/sources-edit.page:12 C/sources-edit.page:17 C/sources.page:14
+#: C/sources.page:19 C/sources-select.page:14 C/sources-select.page:19
+#: C/text-copy.page:13 C/text-copy.page:18
+msgid "2013"
+msgstr "2013"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../C/gnome-dictionary.xml:262(None)
-msgid "@@image: 'figures/gnome-dictionary-preferences-source.png'; md5=5470b15e64e66924477f150c4f47e96d"
-msgstr "@@image: 'figures/gnome-dictionary-preferences-source.png'; md5=5470b15e64e66924477f150c4f47e96d"
+#. (itstool) path: credit/name
+#: C/definition.page:16 C/dictionary-select.page:16 C/find.page:15
+#: C/introduction.page:15 C/keyboard-shortcuts.page:16 C/print-font.page:16
+#: C/print.page:17 C/prob-retrieving-definition.page:16
+#: C/save-definition.page:15 C/similar-words.page:16 C/sources-default.page:15
+#: C/sources-delete.page:16 C/sources-edit.page:15 C/sources.page:17
+#: C/sources-select.page:17 C/text-copy.page:16
+msgid "Ekaterina Gerasimova"
+msgstr "Екатерина Герасимова (Ekaterina Gerasimova)"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../C/gnome-dictionary.xml:282(None)
-msgid "@@image: 'figures/gnome-dictionary-add-source.png'; md5=d059507fee77bb176fce53373951756b"
-msgstr "@@image: 'figures/gnome-dictionary-add-source.png'; md5=d059507fee77bb176fce53373951756b"
+#. (itstool) path: info/desc
+#: C/definition.page:23
+msgid "Find the definition of a word or term."
+msgstr "Найдите определение слова или термина."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../C/gnome-dictionary.xml:351(None)
-msgid "@@image: 'figures/gnome-dictionary-preferences-print.png'; md5=12a65f07cb333db4c7ba743d1d12a00f"
-msgstr "@@image: 'figures/gnome-dictionary-preferences-print.png'; md5=12a65f07cb333db4c7ba743d1d12a00f"
+#. (itstool) path: page/title
+#: C/definition.page:27
+msgid "Look up a word or term"
+msgstr "Поиск слова или термина"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../C/gnome-dictionary.xml:385(None)
-msgid "@@image: 'figures/gnome-dictionary-applet.png'; md5=538c7fa191540f99dd964963a1079677"
-msgstr "@@image: 'figures/gnome-dictionary-applet.png'; md5=538c7fa191540f99dd964963a1079677"
+#. (itstool) path: page/p
+#: C/definition.page:29
+msgid ""
+"You can use <app>Dictionary</app> to look up the meaning of a <em>term</em>. "
+"A term can be a single word such as <input>apple</input> or a compound word "
+"such as <input>chopping board</input>. The search result may also show you "
+"the origin, importance and usage of a word. To look up a term:"
+msgstr ""
+"Вы можете использовать <app>Cловарь</app> для поиска значения <em>термина</"
+"em>. Термин может быть одним словом, например, <input>яблоко</input>, или "
+"составным словом, например, <input>разделочная доска</input>. Результат "
+"поиска также может показать происхождение, значение и употребление слова. "
+"Чтобы найти термин:"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../C/gnome-dictionary.xml:421(None)
-msgid "@@image: 'figures/gnome-dictionary-applet-window.png'; md5=e26ac4847d2e7b53c6bba7d8e1a519c4"
-msgstr "@@image: 'figures/gnome-dictionary-applet-window.png'; md5=e26ac4847d2e7b53c6bba7d8e1a519c4"
+#. (itstool) path: item/p
+#: C/definition.page:37
+msgid ""
+"Type in the term that you want to search for next to <gui>Look up</gui>."
+msgstr ""
+"Введите термин, который вы хотите найти, рядом с надписью <gui>Найти</gui>."
 
-#: ../C/gnome-dictionary.xml:24(title)
-msgid "Dictionary Manual"
-msgstr "Руководство по приложению «Словарь»"
+#. (itstool) path: item/p
+#: C/definition.page:41
+msgid ""
+"Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
+msgstr ""
+"Нажмите <key>Ввод</key> или <gui style=\"button\">Найти:</gui> для поиска."
 
-#: ../C/gnome-dictionary.xml:27(para)
-msgid "Dictionary enables you to look up definitions and correct spellings of words."
-msgstr "Словарь позволяет искать определения слов, их правописание и значение."
+#. (itstool) path: page/p
+#: C/definition.page:46
+msgid ""
+"<app>Dictionary</app> will search your selected dictionary source and show "
+"you the result from the first dictionary in the source. To view results from "
+"the other dictionaries that are in the same source, select <link xref="
+"\"similar-words\"><guiseq><gui style=\"menu\">View</gui> <gui style="
+"\"menuitem\">Similar Words</gui></guiseq></link> to pop up a sidebar that "
+"shows all the results."
+msgstr ""
+"<app>Словарь</app> выполнит поиск в выбранном вами источнике словарей и "
+"покажет вам результат из первого словаря в источнике. Чтобы просмотреть "
+"результаты из других словарей, находящихся в том же источнике, выберите "
+"<link xref=\"similar-words\"><guiseq><gui style=\"menu\">Посмотреть</gui> "
+"<gui style=\"menuitem\">Похожие слова</gui></guiseq></link> чтобы открыть "
+"боковую панель, на которой будут показаны все результаты."
 
-#: ../C/gnome-dictionary.xml:34(year)
-msgid "2005"
-msgstr "2005"
+#. (itstool) path: page/title
+#: C/dictionary-select.page:25
+msgid "Select a different dictionary"
+msgstr "Выберите другой словарь"
 
-#: ../C/gnome-dictionary.xml:35(holder)
-#: ../C/gnome-dictionary.xml:82(para)
-msgid "Emmanuele Bassi"
-msgstr "Emmanuele Bassi"
+#. (itstool) path: page/p
+#: C/dictionary-select.page:27
+msgid ""
+"A single <link xref=\"sources\">dictionary source</link> may have many "
+"different dictionaries. You can search any of these dictionaries."
+msgstr ""
+"В одном <link xref=\"sources\">источнике словарей</link> может быть много "
+"разных словарей. Вы можете искать в любом из этих словарей."
 
-#: ../C/gnome-dictionary.xml:48(publishername)
-#: ../C/gnome-dictionary.xml:83(para)
-msgid "GNOME Documentation Project"
-msgstr "Проект документирования GNOME"
+#. (itstool) path: steps/title
+#: C/dictionary-select.page:32
+msgid "Select a dictionary"
+msgstr "Выберите словарь"
 
-#: ../C/gnome-dictionary.xml:55(firstname)
-msgid "Emmanuele"
-msgstr "Emmanuele"
+#. (itstool) path: item/p
+#: C/dictionary-select.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Available Databases</gui></guiseq>. A sidebar listing the available "
+"dictionaries for your currently selected dictionary source will open."
+msgstr ""
+"Выберите <guiseq><gui style=\"menu\">Просмотреть</gui> <gui style=\"menuitem"
+"\">Доступные базы данных</gui></guiseq>. Откроется боковая панель со списком "
+"доступных словарей для выбранного в данный момент словарного источника."
 
-#: ../C/gnome-dictionary.xml:56(surname)
-msgid "Bassi"
-msgstr "Bassi"
+#. (itstool) path: item/p
+#: C/dictionary-select.page:40
+msgid "Click twice on the dictionary that you want to use."
+msgstr "Дважды щелкните на словаре, который вы хотите использовать."
 
-#: ../C/gnome-dictionary.xml:58(email)
-msgid "ebassi@gmail.com"
-msgstr "ebassi@gmail.com"
+#. (itstool) path: page/p
+#: C/dictionary-select.page:44
+msgid ""
+"The next term that you <link xref=\"definition\">look up</link> will show "
+"the result only from the selected dictionary."
+msgstr ""
+"Следующий термин, который вы <link xref=\"definition\">ищете</link>, покажет "
+"результат только из выбранного словаря."
 
-#: ../C/gnome-dictionary.xml:79(revnumber)
-msgid "Dictionary Manual V1.0.0"
-msgstr "Руководство по приложению «Словарь» версии 1.0.0"
+#. (itstool) path: note/p
+#: C/dictionary-select.page:48
+msgid ""
+"Your dictionary selection will not be remembered next time you use "
+"<app>Dictionary</app>."
+msgstr ""
+"Ваш выбор словаря не будет запомнен при следующем использовании "
+"<app>Словаря</app>."
 
-#: ../C/gnome-dictionary.xml:88(releaseinfo)
-msgid "This manual describes version 2.14.0 of Dictionary."
-msgstr "Это руководство описывает версию 2.14.0 приложения «Словарь»."
+#. (itstool) path: info/desc
+#: C/find.page:22
+msgid "Find text in a definition."
+msgstr "Найдите текст в определении."
 
-#: ../C/gnome-dictionary.xml:90(title)
-msgid "Feedback"
-msgstr "Обратная связь"
+#. (itstool) path: page/title
+#. (itstool) path: td/p
+#: C/find.page:26 C/keyboard-shortcuts.page:74
+msgid "Search within a definition"
+msgstr "Поиск внутри определения"
 
-#: ../C/gnome-dictionary.xml:91(para)
-msgid "To report a bug or make a suggestion regarding the Dictionary application or this manual, follow the directions in the <ulink url=\"ghelp:gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
-msgstr "Для того, чтобы сообщить об ошибке или сделать предложение по апплету «Словарь» или этому руководству, следуйте инструкциями на странице <ulink url=\"ghelp:gnome-feedback\" type=\"help\">Обратная связь с GNOME</ulink>."
+#. (itstool) path: page/p
+#: C/find.page:28
+msgid ""
+"Some dictionary entries can be very long and can contain many results, so "
+"you may wish to search them to find the section that is relevant to you."
+msgstr ""
+"Некоторые словарные статьи могут быть очень длинными и содержать много "
+"результатов, поэтому вы можете поискать в них нужный вам раздел."
 
-#: ../C/gnome-dictionary.xml:101(primary)
+#. (itstool) path: steps/title
+#: C/find.page:32
+msgid "To find definitions:"
+msgstr "Найти определения:"
+
+#. (itstool) path: item/p
+#: C/find.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Find</"
+"gui></guiseq>."
+msgstr ""
+"Выберите <guiseq><gui style=\"menu\">Редактировать</gui> <gui style="
+"\"menuitem\">Найти</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/find.page:38
+msgid ""
+"The <gui>Find</gui> bar will appear at the bottom of the <app>Dictionary</"
+"app> window. Type in your search term to search within the definition that "
+"is currently displayed."
+msgstr ""
+"В нижней части окна <app>Словаря</app> появится строка <gui>Найти</gui>. "
+"Введите поисковый запрос, чтобы найти определение, которое отображается в "
+"данный момент."
+
+#. (itstool) path: item/p
+#: C/find.page:43
+msgid ""
+"Click <gui style=\"button\">Previous</gui> or <gui style=\"button\">Next</"
+"gui> to scroll through the results. The search will not wrap around: in "
+"other words, it will not go to the top of the page when you are on the last "
+"result and click <gui style=\"button\">Next</gui>."
+msgstr ""
+"Нажмите кнопку <gui style=\"button\">Предыдущее</gui> или <gui style=\"button"
+"\">Сдедущее</gui> для прокрутки результатов. Поиск не будет оборачиваться: "
+"другими словами, он не перейдет в начало страницы, когда вы окажетесь на "
+"последнем результате и нажмете кнопку <gui style=\"button\">Далее</gui>."
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
 msgid "Dictionary"
 msgstr "Словарь"
 
-#: ../C/gnome-dictionary.xml:107(title)
-msgid "Introduction"
-msgstr "Введение"
+#. (itstool) path: info/desc
+#: C/index.page:18
+msgid "Look up word definitions in <app>Dictionary</app>."
+msgstr "Посмотрите определения слов в <app>Словаре</app>."
 
-#: ../C/gnome-dictionary.xml:109(para)
-msgid "The <application>Dictionary</application> application enables you to search words and terms on a dictionary source."
-msgstr "Приложение <application>Словарь</application> позволяет искать определения слов и понятий в словарях."
+#. (itstool) path: page/title
+#: C/index.page:21
+msgid "<_:media-1/> Dictionary Help"
+msgstr "<_:media-1/> Подсказки для приложения Словарь"
 
-#: ../C/gnome-dictionary.xml:116(title)
-msgid "Getting Started"
-msgstr "Начало работы"
+#. (itstool) path: section/title
+#: C/index.page:26
+msgid "Features"
+msgstr "Особенности"
 
-#: ../C/gnome-dictionary.xml:120(title)
-msgid "To Start Dictionary"
-msgstr "Для того, чтобы запустить словарь"
-
-#: ../C/gnome-dictionary.xml:122(para)
-msgid "You can start <application>Dictionary</application> in the following ways:"
-msgstr "Можно запустить приложение <application>Словарь</application> следующими способами:"
-
-#: ../C/gnome-dictionary.xml:127(term)
-msgid "<guimenu>Applications</guimenu> menu"
-msgstr "Из меню <guimenu>Приложения</guimenu>"
-
-#: ../C/gnome-dictionary.xml:129(para)
-msgid "Choose <menuchoice><guisubmenu>Accessories</guisubmenu><guimenuitem>Dictionary</guimenuitem></menuchoice>."
-msgstr "Выберите <menuchoice><guisubmenu>Стандартные</guisubmenu><guimenuitem>Словарь</guimenuitem></menuchoice>."
-
-#: ../C/gnome-dictionary.xml:135(term)
-msgid "Command line"
-msgstr "Из командной строки"
-
-#: ../C/gnome-dictionary.xml:137(para)
-msgid "Execute the following command: <command>gnome-dictionary</command>"
-msgstr "Выполните следующую команду: <command>gnome-dictionary</command>"
-
-#: ../C/gnome-dictionary.xml:142(para)
-msgid "Once started, the <application>Dictionary</application> window is displayed:"
-msgstr "После запуска будет отображено окно приложения <application>Словарь</application>:"
-
-#: ../C/gnome-dictionary.xml:146(title)
-#: ../C/gnome-dictionary.xml:175(title)
-#: ../C/gnome-dictionary.xml:217(title)
-#: ../C/gnome-dictionary.xml:258(title)
-#: ../C/gnome-dictionary.xml:278(title)
-#: ../C/gnome-dictionary.xml:347(title)
-msgid "Dictionary Window"
-msgstr "Окно словаря"
-
-#: ../C/gnome-dictionary.xml:152(phrase)
-msgid "Shows Dictionary main window."
-msgstr "Показывает главное окно словаря"
-
-#: ../C/gnome-dictionary.xml:163(title)
-msgid "Usage"
-msgstr "Использование"
-
-#: ../C/gnome-dictionary.xml:166(title)
-msgid "Looking up a word"
-msgstr "Поиск слова"
-
-#: ../C/gnome-dictionary.xml:168(para)
-msgid "To look up a word, type it into the <guilabel>entry field</guilabel> and press <keycap>Enter</keycap>."
-msgstr "Для поиска слова введите его в поле <guilabel>ввода</guilabel> и нажмите <keycap>Enter</keycap>."
-
-#: ../C/gnome-dictionary.xml:171(para)
-msgid "If some definition for the word is found, it will appear inside the main window area:"
-msgstr "Если какая-то словарная статья будет найдена, она появится в главном окне"
-
-#: ../C/gnome-dictionary.xml:181(phrase)
-msgid "Shows a definition inside the Dictionary main window."
-msgstr "Показывает определение внутри окна Словаря."
-
-#: ../C/gnome-dictionary.xml:186(para)
-msgid "Otherwise, an error dialog will appear, with a message explaining the nature of the error."
-msgstr "В противном случае появится диалог, сообщающий об ошибке с сообщением, более подробно её описывающим."
-
-#: ../C/gnome-dictionary.xml:192(title)
-msgid "Save look up results"
-msgstr "Сохранить результаты поиска"
-
-#: ../C/gnome-dictionary.xml:194(para)
-msgid "To save the results of a look up, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Save a Copy</guimenuitem></menuchoice>. Enter a name for the file in the <guilabel>Save a Copy</guilabel> dialog, then click <guibutton>Save</guibutton>."
-msgstr "Для сохранения результатов поиска, выберите меню <menuchoice><guimenu>Файл</guimenu><guimenuitem>Сохранить копию</guimenuitem></menuchoice>. Введите имя файла в появившемся диалоге <guilabel>Сохранить копию</guilabel> и нажмите на кнопку <guibutton>Сохранить</guibutton>."
-
-#: ../C/gnome-dictionary.xml:199(title)
-msgid "Print look up results"
-msgstr "Напечатать результаты поиска"
-
-#: ../C/gnome-dictionary.xml:201(para)
-msgid "To print the results of a look up, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Print</guimenuitem></menuchoice>."
-msgstr "Для печати результатов поиска, выберите меню <menuchoice><guimenu>Файл</guimenu><guimenuitem>Печать</guimenuitem></menuchoice>."
-
-#: ../C/gnome-dictionary.xml:203(para)
-msgid "Inside the <guilabel>Print</guilabel> dialog you can select the printer to use, the paper format, the number of copies."
-msgstr "В диалоге <guilabel>Печать</guilabel> можно выбрать используемый принтер и формат бумаги, число печатаемых копий."
-
-#: ../C/gnome-dictionary.xml:206(para)
-msgid "To see a preview of what will be printed, click <guibutton>Preview</guibutton>."
-msgstr "Для предварительного просмотра того, что будет напечатано, нажмите <guibutton>Предварительный просмотр</guibutton>."
-
-#: ../C/gnome-dictionary.xml:209(para)
-msgid "To print, click <guibutton>Print</guibutton>."
-msgstr "Для печати нажмите <guibutton>Печать</guibutton>."
-
-#: ../C/gnome-dictionary.xml:214(title)
-msgid "Find Text"
-msgstr "Найти текст"
-
-#: ../C/gnome-dictionary.xml:223(phrase)
-msgid "Shows the Dictionary Find pane inside the main window."
-msgstr "Показывает панель поиска текста в главном окне"
-
-#: ../C/gnome-dictionary.xml:229(para)
-msgid "To find text inside the results of a look up, perform the following steps:"
-msgstr "Для поиска текста в словарной статье, сделайте следующее:"
-
-#: ../C/gnome-dictionary.xml:233(para)
-msgid "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find</guimenuitem></menuchoice> to display the <guilabel>Find</guilabel> pane."
-msgstr "Выберите <menuchoice><guimenu>Правка</guimenu><guimenuitem>Найти</guimenuitem></menuchoice> для отображения панели  <guilabel>Поиск</guilabel>."
-
-#: ../C/gnome-dictionary.xml:235(para)
-msgid "Type the text you want to find inside the <guilabel>Search</guilabel> entry."
-msgstr "Наберите текст, который нужно найти внутри поле ввода <guilabel>Найти</guilabel>."
-
-#: ../C/gnome-dictionary.xml:237(para)
-msgid "To find the next occurrence of the text, click <guibutton>Next</guibutton>. To find the previous occurrence of the text, click <guibutton>Previous</guibutton>."
-msgstr "Для поиска следующего вхождения слова, нажмите кнопку <guibutton>Найти следующее</guibutton>. Для нахождения предыдущего вхождения нажмите <guibutton>Найти предыдущее</guibutton>."
-
-#: ../C/gnome-dictionary.xml:248(title)
-#: ../C/gnome-dictionary.xml:438(title)
+#. (itstool) path: section/title
+#: C/index.page:30
 msgid "Preferences"
 msgstr "Параметры"
 
-#: ../C/gnome-dictionary.xml:250(para)
-msgid "To change the <application>Dictionary</application> application preferences, choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
-msgstr "Для правки параметров приложения <application>Словарь</application> выберите <menuchoice><guimenu>Правка</guimenu><guimenuitem>Параметры</guimenuitem></menuchoice>."
+#. (itstool) path: section/title
+#: C/index.page:34
+msgid "Common problems and solutions"
+msgstr "Общие проблемы и решения"
 
-#: ../C/gnome-dictionary.xml:255(title)
-msgid "Dictionary Sources"
-msgstr "Источники поиска словарных статей"
+#. (itstool) path: info/desc
+#: C/introduction.page:22
+msgid "What is <app>Dictionary</app>?"
+msgstr "Что такое <app>Словарь</app>?"
 
-#: ../C/gnome-dictionary.xml:264(phrase)
-msgid "Shows the Source tab of the Preferences dialog."
-msgstr "Показывает закладку источников поиска словарных статей в диалоге параметров."
+#. (itstool) path: page/title
+#: C/introduction.page:26
+msgid "Introduction"
+msgstr "Введение"
 
-#: ../C/gnome-dictionary.xml:269(para)
-msgid "To change the dictionary source used to look up words, select the desired source from the list."
-msgstr "Для изменения источников поиска словарных статей, выберите требуемых источник из списка."
+#. (itstool) path: page/p
+#: C/introduction.page:28
+msgid ""
+"<app>Dictionary</app> is an application for looking up term definitions. It "
+"searches for definitions using an online <app>DICT</app> server. The default "
+"<app>DICT</app> server is at <sys href=\"http://dict.org\">http://dict.org</"
+"sys>."
+msgstr ""
+"<app>Словарь</app> - это приложение для поиска определений терминов. Поиск "
+"определений осуществляется с помощью онлайнового сервера <app>DICT</app>. По "
+"умолчанию сервер <app>DICT</app> находится по адресу <sys href=\"http://dict."
+"org\">http://dict.org</sys>."
 
-#: ../C/gnome-dictionary.xml:275(title)
-msgid "Adding a new source"
-msgstr "Добавление нового источника словарных статей"
+#. (itstool) path: page/p
+#: C/introduction.page:33
+msgid ""
+"Start using <app>Dictionary</app> by <link xref=\"definition\">looking up a "
+"definition</link>!"
+msgstr ""
+"Начните использовать <app>Словарь</app> с <link xref=\"definition\">поиска "
+"определения</link>!"
 
-#: ../C/gnome-dictionary.xml:284(phrase)
-msgid "Shows the Add Source dialog."
-msgstr "Показывает диалог добавления нового источника словарных статей"
+#. (itstool) path: figure/title
+#: C/introduction.page:37
+msgid "Dictionary"
+msgstr "Словарь"
 
-#: ../C/gnome-dictionary.xml:289(para)
-msgid "To add a new dictionary source, perform the following steps:"
-msgstr "Для того, чтобы добавить новый источник, сделайте следующее:"
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:38
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-dictionary-3-26.png' "
+"md5='ab6aa6e49972726676c39bf69a511303'"
+msgstr ""
+"external ref='figures/gnome-dictionary-3-26.png' "
+"md5='ab6aa6e49972726676c39bf69a511303'"
 
-#: ../C/gnome-dictionary.xml:292(para)
-msgid "Click on the <guibutton>Add</guibutton> button"
-msgstr "Нажмите на кнопку <guibutton>Добавить</guibutton>"
+#. (itstool) path: media/p
+#: C/introduction.page:39
+msgid "Screenshot showing the <app>Dictionary</app> main window."
+msgstr "Снимок экрана, показывающий главное окно <app>Словаря</app>."
 
-#: ../C/gnome-dictionary.xml:293(para)
-msgid "Edit the name of the new source inside the <guilabel>Description</guilabel> entry"
-msgstr "Задайте имя нового источинка в поле ввода <guilabel>Описание</guilabel>"
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:23
+msgid ""
+"You can use keyboard shortcuts to navigate around <app>Dictionary</app> more "
+"efficiently."
+msgstr ""
+"Вы можете использовать сочетания клавиш для более эффективной навигации по "
+"<app>Словарю</app>."
 
-#: ../C/gnome-dictionary.xml:294(para)
-msgid "Change the transport type of the new source using the <guilabel>Transport</guilabel> combo box"
-msgstr "Измените тип транспора для нового источника в выпадающем списке <guilabel>Транспорт</guilabel>"
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:27
+msgid "Keyboard shortcuts"
+msgstr "Комбинации клавиш"
 
-#: ../C/gnome-dictionary.xml:295(para)
-msgid "Edit the attributes of the new source"
-msgstr "Правка параметров нового источника словарных статей"
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
+msgid ""
+"Keyboard shortcuts are combinations of keys that you can use instead of "
+"navigating through the menu. The following shortcuts are available:"
+msgstr ""
+"Ярлыки клавиатуры - это комбинации клавиш, которые можно использовать вместо "
+"навигации по меню. Доступны следующие сочетания клавиш:"
 
-#: ../C/gnome-dictionary.xml:296(para)
-msgid "Click <guibutton>Add</guibutton>"
-msgstr "Нажмите на кнопку <guibutton>Добавить</guibutton>"
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:33
+msgid "Navigate around <app>Dictionary</app>"
+msgstr "Навигация по <app>Словарю</app>"
 
-#: ../C/gnome-dictionary.xml:299(para)
-msgid "Different source transport types uses different attributes. This is the list of available attributes per transport type:"
-msgstr "Различные источники словарных статей могут задаваться различными параметрами. Список доступных параметров для каждого типа транспорта:"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:36 C/keyboard-shortcuts.page:68
+#: C/keyboard-shortcuts.page:92 C/keyboard-shortcuts.page:120
+msgid "Action"
+msgstr "Действие"
 
-#: ../C/gnome-dictionary.xml:306(para)
-msgid "Transport"
-msgstr "Транспорт"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:37 C/keyboard-shortcuts.page:69
+#: C/keyboard-shortcuts.page:93 C/keyboard-shortcuts.page:121
+msgid "Shortcut"
+msgstr "Комбинация клавиш"
 
-#: ../C/gnome-dictionary.xml:307(para)
-msgid "Attributes"
-msgstr "Параметры"
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:42 C/print.page:36
+msgid "Print preview"
+msgstr "Предварительный просмотр печати"
 
-#: ../C/gnome-dictionary.xml:312(para)
-msgid "Dictionary Server"
-msgstr "Сервер словарных статей"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:43
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:314(para)
-msgid "Hostname: the hostname of the dictionary server"
-msgstr "Имя узла: имя узла, в котором находится сервер словарей"
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/keyboard-shortcuts.page:46 C/print.page:67
+msgid "Print"
+msgstr "Печать"
 
-#: ../C/gnome-dictionary.xml:315(para)
-msgid "Port: the port of the dictionary server"
-msgstr "Порт: порт, по которому слушает сервер словарей"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:47
+msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:326(title)
-msgid "Removing a source"
-msgstr "Удаление источника статей"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:50
+msgid "View sidebar"
+msgstr "Просмотр боковой панели"
 
-#: ../C/gnome-dictionary.xml:328(para)
-msgid "To remove a dictionary source, perform the following steps:"
-msgstr "Для удаления источника статей, сделайте следующее:"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:51
+msgid "<key>F9</key>"
+msgstr "<key>F9</key>"
 
-#: ../C/gnome-dictionary.xml:331(para)
-msgid "Select the source you wish to remove"
-msgstr "Выберите источник, который нужно удалить"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:54
+msgid "Open a new <app>Dictionary</app> window"
+msgstr "Открыть новое окно <app>Словаря</app>"
 
-#: ../C/gnome-dictionary.xml:332(para)
-msgid "Click the <guibutton>Remove</guibutton> button"
-msgstr "Нажмите на кнопку <guibutton>Удалить</guibutton>."
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:55
+msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:335(para)
-msgid "If you remove a dictionary source it will be permanently deleted from the list of available sources. Also, as some sources might be defined system-wide you may actually not be able to remove them unless you have the right ownership privileges."
-msgstr "Если вы удаляете источник поиска словарных статей, он будет удалён навсегда из списка используемых источников. Также, некоторые источники статей могут быть определены системным администратором и вы не сможете удалить их, не получив достаточных для этого прав доступа."
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:58
+msgid "Close current <app>Dictionary</app> window"
+msgstr "Закрыть текущее окно <app>Словаря</app>"
 
-#: ../C/gnome-dictionary.xml:344(title)
-msgid "Print Options"
-msgstr "Параметры печати"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:59
+msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:353(phrase)
-msgid "Shows the Print tab inside the Preferences dialog."
-msgstr "Показывает вкладку параметров печати в диалоге параметров."
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:65
+msgid "Search shortcuts"
+msgstr "Поиск ярлыков"
 
-#: ../C/gnome-dictionary.xml:358(para)
-msgid "If you want to change the font name and size used when printing, perform the following steps:"
-msgstr "Если нужно изменить размер или тип шрифта для печати, сделайте следующее:"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:75
+msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
+msgstr "<key>/</key> или <keyseq><key>Ctrl</key><key>F</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:362(para)
-msgid "Click on the <guilabel>Print Font</guilabel> button"
-msgstr "Нажмите на кнопку <guilabel>Шрифт печати</guilabel>"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:78
+msgid "Find next"
+msgstr "Найти следующее"
 
-#: ../C/gnome-dictionary.xml:363(para)
-msgid "Select the font and size you wish to use"
-msgstr "Выберите требуемый шрифт и его размер"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:79
+msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:364(para)
-msgid "Click <guibutton>Ok</guibutton>"
-msgstr "Нажмите на кнопку <guibutton>OK</guibutton>"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:82
+msgid "Find previous"
+msgstr "Найти предыдущее"
 
-#: ../C/gnome-dictionary.xml:373(title)
-msgid "The Dictionary Applet"
-msgstr "Апплет «Словарь»"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:83
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:375(para)
-msgid "The <application>Dictionary</application> application comes with a panel applet, the <application>Dictionary Applet</application>. You can add the <application>Dictionary Applet</application> applet to a panel and look up words in dictionaries."
-msgstr "Приложение <application>Словарь</application> также содержит апплет панели рабочего стола, называемый апплет <application>Словарь</application>. Можно добавить апплет <application>Словарь</application> на панель и использовать его для быстрого поиска слова в словарях."
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:89
+msgid "Navigate within a definition"
+msgstr "Навигация внутри определения"
 
-#: ../C/gnome-dictionary.xml:381(title)
-#: ../C/gnome-dictionary.xml:417(title)
-msgid "Dictionary Applet Window"
-msgstr "Окно апплета «Словарь»"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:98
+msgid "Previous definition"
+msgstr "Предыдущее определение"
 
-#: ../C/gnome-dictionary.xml:387(phrase)
-msgid "Shows Dictionary Applet."
-msgstr "Показывает апплет «Словарь»."
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:99
+msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:395(title)
-msgid "To Start Dictionary Applet"
-msgstr "Для запуска апплета «Словарь»"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:102
+msgid "Next definition"
+msgstr "Следующее определение"
 
-#: ../C/gnome-dictionary.xml:397(para)
-msgid "To add <application>Dictionary Applet</application> to a panel, right-click on the panel, then choose <guimenuitem>Add to Panel</guimenuitem>. Select Dictionary Applet in the <application>Add to the panel</application> dialog, then click <guibutton>OK</guibutton>."
-msgstr "Для того, чтобы добавить апплет <application>Словарь</application> на панель, щёлкните правой кнопкой мыши по панели, затем выберите <guimenuitem>Добавить</guimenuitem>. Выберите апплет в диалоге <application>Добавить на панель</application>, затем нажмите на кнопку <guibutton>ОК</guibutton>."
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:103
+msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:406(title)
-msgid "Using the Dictionary Applet"
-msgstr "Использование апплета «Словарь»"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:106
+msgid "First definition"
+msgstr "Первое определение"
 
-#: ../C/gnome-dictionary.xml:408(para)
-msgid "To look up a word, type it into the <guilabel>entry field</guilabel>, and press <keycap>Enter</keycap> or right-click on the dictionary icon and then choose <guimenuitem>Look up</guimenuitem>."
-msgstr "Для поиска слова, наберите его в <guilabel>поле ввода</guilabel> и нажмите клавишу <keycap>Enter</keycap> или щёлкните правой кнопкой мыши по значку словаря. Затем выберите <guimenuitem>Искать</guimenuitem>"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:107
+msgid "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Главная</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:413(para)
-msgid "If some definition for the word was found, a window will appear, with the text of the definitions:"
-msgstr "Если описание слова было найдено, появится окно с текстом словарной статьи:"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:110
+msgid "Last definition"
+msgstr "Последнее определение"
 
-#: ../C/gnome-dictionary.xml:423(phrase)
-msgid "Shows Dictionary Applet main window."
-msgstr "Показывает главное окно апплета «Словарь»"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:111
+msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Конец</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:428(para)
-msgid "Click <guibutton>Save</guibutton> to save the definitions to a text file. Click <guibutton>Print</guibutton> to print the definitions. Click <guibutton>Clear</guibutton> to clear the definitions."
-msgstr "Нажмите на кнопку <guibutton>Сохранить</guibutton>для сохранения определения в текстовый файл. Нажмите <guibutton>Print</guibutton> для печати определения. Нажмите <guibutton>Очистить</guibutton> для очистки содержания словарной статьи."
+#. (itstool) path: table/title
+#: C/keyboard-shortcuts.page:117
+msgid "<app>Dictionary</app> definitions shortcuts:"
+msgstr "Ярлыки <app>Словарных</app> определений:"
 
-#: ../C/gnome-dictionary.xml:432(para)
-msgid "You can make the window disappear by left-clicking on the dictionary icon or by pressing <keycap>Esc</keycap>."
-msgstr "Можно убрать окно словаря, щёлкнув по значку левой кнопкой мыши или нажмите <keycap>Esc</keycap>."
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:126 C/similar-words.page:27
+msgid "Similar words"
+msgstr "Похожие слова"
 
-#: ../C/gnome-dictionary.xml:440(para)
-msgid "To configure the <application>Dictionary Applet</application>, right-click on the dictionary icon, then choose <guimenuitem>Preferences</guimenuitem>."
-msgstr "Для настройки апплета <application>Словарь</application>, кликните правой кнопой мыши по значку словаря, затем выберите <guimenuitem>Параметры</guimenuitem>."
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:127
+msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 
-#: ../C/gnome-dictionary.xml:443(para)
-msgid "The <guilabel>Preferences</guilabel> dialog is the same used by the <application>Dictionary</application> application, so refer to <xref linkend=\"gnome-dictionary-preferences\"/>"
-msgstr "Диалог <guilabel>Параметры</guilabel> также используется приложением <application>Словарь</application>. Подробная информация о нём может быть найдена в <xref linkend=\"gnome-dictionary-preferences\"/>"
+#. (itstool) path: td/p
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:130 C/sources.page:28
+msgid "Dictionary sources"
+msgstr "Источники словарей"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: ../C/gnome-dictionary.xml:0(None)
-msgid "translator-credits"
-msgstr "Николай В. Шмырёв"
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:131
+msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:134
+msgid "Available databases"
+msgstr "Доступные базы данных"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:135
+msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:138
+msgid "Available strategies"
+msgstr "Доступные стратегии"
+
+#. (itstool) path: td/p
+#: C/keyboard-shortcuts.page:139
+msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+
+#. (itstool) path: p/link
+#: C/legal.xml:3
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid ""
+"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. To view a copy of this license, visit <_:link-1/> or send "
+"a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
+msgstr ""
+"Эта работа лицензирована в соответствии с лицензией Creative Commons "
+"Attribution-ShareAlike 3.0 Unported License. Чтобы ознакомиться с копией "
+"этой лицензии, посетите сайт <_:link-1/> или отправьте письмо по адресу "
+"Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
+"94041, USA."
+
+#. (itstool) path: info/desc
+#: C/pref.page:15
+msgid "Manage your preferences."
+msgstr "Управляйте своими предпочтениями."
+
+#. (itstool) path: page/title
+#: C/pref.page:18
+msgid "<app>Dictionary</app> preferences"
+msgstr "Предпочтения в <app>Словаре</app>"
+
+#. (itstool) path: info/desc
+#: C/print-font.page:23
+msgid "Select the font for printing definitions."
+msgstr "Выберите шрифт для печати определений."
+
+#. (itstool) path: page/title
+#: C/print-font.page:27
+msgid "Print font"
+msgstr "Шрифт для печати"
+
+#. (itstool) path: page/p
+#: C/print-font.page:29
+msgid ""
+"You can change the default font face and size that are used for printing the "
+"definitions."
+msgstr ""
+"Вы можете изменить начертание и размер шрифта по умолчанию, которые "
+"используются для печати определений."
+
+#. (itstool) path: steps/title
+#: C/print-font.page:33
+msgid "Change the font"
+msgstr "Изменить шрифт"
+
+#. (itstool) path: item/p
+#: C/print-font.page:35
+msgid ""
+"Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Print</gui></guiseq>."
+msgstr ""
+"Выберите <guiseq><gui style=\"menu\">Словарь</gui> <gui style=\"menuitem"
+"\">Предпочтения</gui> <gui style=\"tab\">Печать</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/print-font.page:40
+msgid "Click font selector button."
+msgstr "Нажмите кнопку выбора шрифта."
+
+#. (itstool) path: item/p
+#: C/print-font.page:43
+msgid "Select the font that you wish to use."
+msgstr "Найдите и выберите файл, который нужно открыть."
+
+#. (itstool) path: item/p
+#: C/print-font.page:46
+msgid ""
+"Drag the slider to the right to increase the font size or left to decrease "
+"it. Alternatively, you can type in the font size in the text box, or use the "
+"<gui>-</gui> and <gui>+</gui> buttons to decrease and increase the font size."
+msgstr ""
+"Перетащите ползунок вправо, чтобы увеличить размер шрифта, или влево, чтобы "
+"уменьшить его. Также можно ввести размер шрифта в текстовом поле или "
+"использовать кнопки <gui>-</gui> и <gui>+</gui> для уменьшения и увеличения "
+"размера шрифта."
+
+#. (itstool) path: item/p
+#: C/print-font.page:52
+msgid "Click <gui style=\"button\">Select</gui> to save your font settings."
+msgstr ""
+"Нажмите <gui style=\"button\">Выбрать</gui>, чтобы сохранить настройки "
+"шрифта."
+
+#. (itstool) path: page/p
+#: C/print-font.page:56
+msgid ""
+"The definition is not reflowed for printing, so if you choose a large font "
+"size, some of the text may be cut off."
+msgstr ""
+"Определение не перерабатывается для печати, поэтому если вы выберете большой "
+"размер шрифта, часть текста может быть обрезана."
+
+#. (itstool) path: info/desc
+#: C/print.page:24
+msgid "Print preview and print definitions."
+msgstr "Предварительный просмотр печати и определения печати."
+
+#. (itstool) path: page/title
+#: C/print.page:28
+msgid "Print a definition"
+msgstr "Печать определения"
+
+#. (itstool) path: page/p
+#: C/print.page:30
+msgid ""
+"You can print a definition to paper or a file. Before printing, you should "
+"preview the definition as it would be printed to check that the text fits "
+"onto the page, especially if you have changed the <link xref=\"print-font"
+"\">print font</link> size."
+msgstr ""
+"Вы можете распечатать определение на бумаге или в файле. Перед печатью "
+"необходимо просмотреть определение в том виде, в котором оно будет "
+"напечатано, чтобы убедиться, что текст помещается на странице, особенно если "
+"вы изменили размер <link xref=\"print-font\">шрифта для печати</link>."
+
+#. (itstool) path: item/p
+#: C/print.page:40
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem"
+"\">Preview</gui></guiseq>."
+msgstr ""
+"Выберите <guiseq><gui style=\"menu\">Файл</gui> <gui style=\"menuitem"
+"\">Предварительный просмотр</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/print.page:44
+msgid ""
+"A print preview window will open which will show you the definition exactly "
+"as it will be printed."
+msgstr ""
+"Откроется окно предварительного просмотра печати, которое покажет вам "
+"определение именно в том виде, в котором оно будет напечатано."
+
+#. (itstool) path: item/p
+#: C/print.page:48
+msgid "Use the toolbar to browse pages, adjust zoom level and page width."
+msgstr ""
+"Используйте панель инструментов для просмотра страниц, настройки уровня "
+"масштабирования и ширины страницы."
+
+#. (itstool) path: item/p
+#: C/print.page:52
+msgid ""
+"Click the <gui style=\"button\">Print this document</gui> to print the "
+"definition or close the window to end the preview."
+msgstr ""
+"Нажмите кнопку <gui style=\"button\">Печать этого документа</gui>, чтобы "
+"распечатать определение, или закройте окно, чтобы завершить предварительный "
+"просмотр."
+
+#. (itstool) path: note/p
+#: C/print.page:58
+msgid ""
+"The print button in the toolbar may not always work. If it does not work for "
+"you, close the window and select <guiseq><gui style=\"menu\">File</gui> <gui "
+"style=\"menuitem\">Print</gui></guiseq>."
+msgstr ""
+"Кнопка печати на панели инструментов может работать не всегда. Если она у "
+"вас не работает, закройте окно и выберите <guiseq><gui style=\"menu\">Файл</"
+"gui> <gui style=\"menuitem\">Печать</gui></guiseq>."
+
+#. (itstool) path: section/p
+#: C/print.page:69
+msgid ""
+"You need to <link href=\"help:gnome-help/printing\">have a printer set up</"
+"link> to be able to print to paper."
+msgstr ""
+"Чтобы печатать на бумаге, необходимо <link href=\"help:gnome-help/printing"
+"\">иметь настроенный принтер</link>."
+
+#. (itstool) path: item/p
+#: C/print.page:74
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
+"gui> <gui style=\"tab\">General</gui></guiseq>."
+msgstr ""
+"Выберите <guiseq><gui style=\"menu\">Файл</gui> <gui style=\"menuitem"
+"\">Печать</gui> <gui style=\"tab\">Общие</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/print.page:79
+msgid ""
+"Select the printer that you want to use from the list of printers or select "
+"<gui href=\"help:gnome-help/print-to-file\">Print to File</gui>."
+msgstr ""
+"Выберите принтер, который вы хотите использовать, из списка принтеров или "
+"выберите <gui href=\"help:gnome-help/print-to-file\">Печать в файл</gui>."
+
+#. (itstool) path: item/p
+#: C/print.page:84
+msgid ""
+"Choose your <link href=\"help:gnome-help/printing#paper\">printing settings</"
+"link>."
+msgstr ""
+"Выберите <link href=\"help:gnome-help/printing#paper\">параметры печати</"
+"link>."
+
+#. (itstool) path: item/p
+#: C/print.page:88
+msgid "Press <gui style=\"button\">Print</gui> to print the definition."
+msgstr ""
+"Нажмите <gui style=\"button\">Print</gui>, чтобы распечатать определение."
+
+#. (itstool) path: info/desc
+#: C/prob-retrieving-definition.page:23
+msgid "<sys>Error while retrieving definitions</sys>."
+msgstr "<sys>Ошибка при извлечении определений</sys>."
+
+#. (itstool) path: page/title
+#: C/prob-retrieving-definition.page:27
+msgid "Cannot find definitions"
+msgstr "Невозможно найти определения"
+
+#. (itstool) path: page/p
+#: C/prob-retrieving-definition.page:29
+msgid ""
+"If you see the error message <sys>Error while retrieving definition</sys> "
+"when looking up a definition from any of the <link xref=\"sources-select"
+"\">selected dictionaries</link>, the problem is more likely one of the "
+"following:"
+msgstr ""
+"Если вы видите сообщение об ошибке <sys>Error while retrieving definition</"
+"sys> при поиске определения в любом из <link xref=\"sources-select"
+"\">выбранных словарей</link>, проблема, скорее всего, одна из следующих:"
+
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:36
+msgid ""
+"One or more of the selected <app>DICT</app> servers that are used to look up "
+"definitions may not be working. You can try waiting a while before <link "
+"xref=\"definition\">looking up</link> the definition again."
+msgstr ""
+"Один или несколько выбранных серверов <app>DICT</app>, используемых для "
+"поиска определений, могут не работать. Вы можете попробовать подождать "
+"некоторое время, прежде чем снова <link xref=\"definition\">искать</link> "
+"определение."
+
+#. (itstool) path: item/p
+#: C/prob-retrieving-definition.page:42
+msgid ""
+"You may not have a working Internet connection. For <app>Dictionary</app> to "
+"look up terms, your computer <link href=\"help:gnome-help/net\">must be able "
+"to connect</link> to <sys href=\"http://dict.org\">dict.org</sys>."
+msgstr ""
+"Возможно, у вас не работает подключение к Интернету. Чтобы <app>Словарь</"
+"app> мог искать термины, ваш компьютер <link href=\"help:gnome-help/net"
+"\">должен иметь возможность подключения</link> к <sys href=\"http://dict.org"
+"\">dict.org</sys>."
+
+#. (itstool) path: info/desc
+#: C/save-definition.page:22
+msgid "Save a copy of a definition to a text file."
+msgstr "Сохранить копию определения в текстовый файл."
+
+#. (itstool) path: page/title
+#: C/save-definition.page:26
+msgid "Save a definition"
+msgstr "Сохранить определение"
+
+#. (itstool) path: page/p
+#: C/save-definition.page:28
+msgid ""
+"You can save a definition to a text file. This may be useful if you want to "
+"use it outside of <app>Dictionary</app>."
+msgstr ""
+"Вы можете сохранить определение в текстовом файле. Это может быть полезно, "
+"если вы хотите использовать его за пределами <app>Словаря</app>."
+
+#. (itstool) path: steps/title
+#: C/save-definition.page:32
+msgid "To save a definition:"
+msgstr "Чтобы сохранить определение:"
+
+#. (itstool) path: item/p
+#: C/save-definition.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Save a "
+"Copy…</gui></guiseq>."
+msgstr ""
+"Выберите <guiseq><gui style=\"menu\">Файл</gui> <gui style=\"menuitem"
+"\">Сохранить копию..</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/save-definition.page:38
+msgid ""
+"Choose where you want to save the definition to and a name for the file. You "
+"may want to add a <file>.txt</file> file extension to the end of the file "
+"name."
+msgstr ""
+"Выберите место, куда вы хотите сохранить определение, и имя файла. Вы можете "
+"добавить расширение файла <file>.txt</file> в конец имени файла."
+
+#. (itstool) path: item/p
+#: C/save-definition.page:43
+msgid "Press <gui style=\"button\">Save</gui> to save the definition."
+msgstr ""
+"Нажмите <gui style=\"button\">Сохранить</gui>, чтобы сохранить определение."
+
+#. (itstool) path: info/desc
+#: C/similar-words.page:23
+msgid "View related results in other dictionaries."
+msgstr "Посмотреть похожие результаты в других словарях."
+
+#. (itstool) path: page/p
+#: C/similar-words.page:29
+msgid ""
+"<app>Dictionary</app> will only display the definition from one of your "
+"dictionaries. To check if there are search results in other dictionaries:"
+msgstr ""
+"<app>Словарь</app> покажет определение только из одного из ваших словарей. "
+"Чтобы проверить, есть ли результаты поиска в других словарях:"
+
+#. (itstool) path: item/p
+#: C/similar-words.page:34
+msgid "<link xref=\"definition\">Look up</link> the desired term."
+msgstr "<link xref=\"definition\">Найдите</link> нужный термин."
+
+#. (itstool) path: item/p
+#: C/similar-words.page:37
+msgid ""
+"If the sidebar is not already visible, select <guiseq><gui style=\"menu"
+"\">View</gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
+msgstr ""
+"Если боковая панель еще не видна, выберите <guiseq><gui style=\"menu"
+"\">Посмотреть</gui> <gui style=\"menuitem\">Похожие слова</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/similar-words.page:42
+msgid ""
+"The <gui>Similar Words</gui> sidebar will show search results from other "
+"dictionaries in your selected dictionary source. To view the similar word, "
+"double click on the entry."
+msgstr ""
+"В боковой панели <gui>Похожие слова</gui> будут показаны результаты поиска "
+"по другим словарям в выбранном вами словарном источнике. Чтобы просмотреть "
+"похожее слово, дважды щелкните по записи."
+
+#. (itstool) path: page/title
+#: C/source-add-local.page:20
+msgid "Add local dictionary sources"
+msgstr "Добавить локальные источники словарей"
+
+#. (itstool) path: page/title
+#: C/sources-default.page:24
+msgid "Set a default dictionary source"
+msgstr "Установите источник словаря по умолчанию"
+
+#. (itstool) path: page/p
+#: C/sources-default.page:26
+msgid ""
+"When you first use <app>Dictionary</app>, it should have some pre-installed "
+"dictionaries that you can use. You can change the default <link xref="
+"\"sources\">dictionary source</link> to one that you would prefer to use "
+"instead."
+msgstr ""
+"Когда вы впервые используете <app>Словарь</app>, он должен иметь несколько "
+"предустановленных словарей, которые вы можете использовать. Вы можете "
+"изменить <link xref=\"sources\">источник словарей</link> по умолчанию на "
+"тот, который вы предпочитаете использовать вместо него."
+
+#. (itstool) path: steps/title
+#: C/sources-default.page:32
+msgid "Change the default dictionary source:"
+msgstr "Измените источник словаря по умолчанию:"
+
+#. (itstool) path: item/p
+#: C/sources-default.page:34
+msgid ""
+"Select <guiseq><gui><app>Dictionary</app></gui> <gui style=\"menu"
+"\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Выберите <guiseq><gui><app>Словарь</app></gui> <gui style=\"menu"
+"\">Предпочтения</gui> <gui style=\"tab\">Источник</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/sources-default.page:39
+msgid "Select the dictionary source that you want to set as the default."
+msgstr "Выберите источник словаря, который вы хотите установить по умолчанию."
+
+#. (itstool) path: item/p
+#: C/sources-default.page:42
+msgid "Your change will be saved automatically."
+msgstr "Ваше изменение будет сохранено автоматически."
+
+#. (itstool) path: page/title
+#: C/sources-delete.page:25
+msgid "Delete a dictionary source"
+msgstr "Добавить новый источник словарей"
+
+#. (itstool) path: page/p
+#: C/sources-delete.page:27
+msgid ""
+"If you no longer need a specific <link xref=\"sources\">dictionary source</"
+"link> or if one stops working for you, you may want to delete it."
+msgstr ""
+"Если вам больше не нужен определенный <link xref=\"sources\">источник "
+"словарей</link> или если он перестал работать, вы можете удалить его."
+
+#. (itstool) path: steps/title
+#: C/sources-delete.page:32
+msgid "Delete a dictionary source:"
+msgstr "Удалить источник словаря:"
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\"><app>Dictionary</app></gui> <gui style="
+"\"menuitem\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Выберите <guiseq><gui style=\"menu\"><app>Словарь</app></gui> <gui style="
+"\"menuitem\">Предпочтения</gui> <gui style=\"tab\">Источник</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:39
+msgid "Select the dictionary source that you want to delete."
+msgstr "Выберите источник словаря, который вы хотите удалить."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:42
+msgid "Press <gui style=\"button\">Remove</gui>."
+msgstr "Нажмите кнопку <gui style=\"button\">Удалить</gui>."
+
+#. (itstool) path: item/p
+#: C/sources-delete.page:45
+msgid ""
+"A dialog will pop up asking you to confirm that you wish to permanently "
+"delete the selected source. Once you confirm, the source will be deleted."
+msgstr ""
+"Появится диалоговое окно с просьбой подтвердить, что вы хотите навсегда "
+"удалить выбранный источник. После подтверждения источник будет удален."
+
+#. (itstool) path: page/title
+#: C/sources-edit.page:24
+msgid "Edit a dictionary source"
+msgstr "Изменить источник словарей"
+
+#. (itstool) path: page/p
+#: C/sources-edit.page:26
+msgid ""
+"You can customize a <link xref=\"sources\">dictionary source</link> to "
+"update details such as its description or remote address."
+msgstr ""
+"Вы можете настроить <link xref=\"sources\">источник словаря</link>, чтобы "
+"обновить такие детали, как его описание или удаленный адрес."
+
+#. (itstool) path: steps/title
+#: C/sources-edit.page:30
+msgid "To edit a dictionary source:"
+msgstr "Изменить выбранный источник словарей."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:32
+msgid ""
+"Select <guiseq><gui style=\"menu\">Dictionary</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Source</gui></guiseq>."
+msgstr ""
+"Выберите <guiseq><gui style=\"menu\">Словарь</gui> <gui style=\"menuitem"
+"\">Предпочтения</gui> <gui style=\"tab\">Источник</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:37
+msgid "Double click on the dictionary source you want to edit."
+msgstr "Дважды щелкните источник словаря, который вы хотите отредактировать."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:40
+msgid "You can edit the following fields:"
+msgstr "Вы можете редактировать следующие поля:"
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:43
+msgid ""
+"<gui>Description</gui> is the name of the source as it will be displayed to "
+"you."
+msgstr ""
+"<gui>Описание</gui> - это название источника в том виде, в котором он будет "
+"отображаться для вас."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:47
+msgid "<gui>Transport</gui> is the type of server."
+msgstr "<gui>Транспорт</gui> - это тип сервера."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:50
+msgid "<gui>Hostname</gui> is the location of the dictionary source."
+msgstr "<gui>Hostname</gui> - местоположение источника словаря."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:55
+msgid "<gui>Port</gui>."
+msgstr "<gui>Порт</gui>."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:60
+msgid ""
+"View the dictionaries that are available in the dictionary source by "
+"selecting the <gui style=\"tab\">Dictionaries</gui> tab."
+msgstr ""
+"Просмотрите словари, доступные в источнике словарей, выбрав вкладку <gui "
+"style=\"tab\">Словари</gui>."
+
+#. (itstool) path: item/p
+#: C/sources-edit.page:64
+msgid "Press <gui style=\"button\">Close</gui> to save the settings."
+msgstr "Нажмите <gui style=\"button\">Close</gui>, чтобы сохранить настройки."
+
+#. (itstool) path: info/desc
+#: C/sources.page:24
+msgid "Manage various dictionary sources."
+msgstr "Управление различными источниками словарей."
+
+#. (itstool) path: page/p
+#: C/sources.page:30
+msgid ""
+"<app>Dictionary</app> uses <em>dictionary sources</em> to look up words that "
+"you search for. Dictionary sources are collections of one or more dictionary "
+"databases which are usually online, but can be installed on your machine as "
+"well."
+msgstr ""
+"<app>Словарь</app> использует <em>словарные источники</em> для поиска слов, "
+"которые вы ищете. Источники словарей - это коллекции одной или нескольких "
+"словарных баз данных, которые обычно находятся в Интернете, но могут быть "
+"установлены и на вашем компьютере."
+
+#. (itstool) path: section/title
+#: C/sources.page:36
+msgid "Manage your dictionary sources"
+msgstr "Управление источниками словарей"
+
+#. (itstool) path: page/title
+#: C/sources-select.page:26
+msgid "Select a dictionary source"
+msgstr "Выберите источник словаря"
+
+#. (itstool) path: page/p
+#: C/sources-select.page:28
+msgid ""
+"You can change the <link xref=\"sources\">dictionary source</link> that you "
+"are currently using without changing your default preferences."
+msgstr ""
+"Вы можете изменить <link xref=\"sources\">источник словаря</link>, который "
+"вы используете в данный момент, не меняя предпочтений по умолчанию."
+
+#. (itstool) path: steps/title
+#: C/sources-select.page:32
+msgid "Temporarily change the dictionary source:"
+msgstr "Название используемого источника словарей:"
+
+#. (itstool) path: item/p
+#: C/sources-select.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Dictionary Sources</gui></guiseq>."
+msgstr ""
+"Выберите <guiseq><gui style=\"menu\">Посмотреть</gui> <gui style=\"menuitem"
+"\">Источники словаря</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/sources-select.page:38
+msgid "Double click on the dictionary source that you want to use."
+msgstr "Дважды щелкните на источнике словаря, который вы хотите использовать."
+
+#. (itstool) path: info/desc
+#: C/text-copy.page:23
+msgid "Select and copy a definition to another application."
+msgstr "Выберите и скопируйте определение в другое приложение."
+
+#. (itstool) path: page/title
+#: C/text-copy.page:27
+msgid "Copy definition"
+msgstr "Определение копирования"
+
+#. (itstool) path: page/p
+#: C/text-copy.page:29
+msgid ""
+"You can copy and paste definitions from <app>Dictionary</app> to another "
+"application."
+msgstr ""
+"Вы можете копировать и вставлять определения из <app>Словаря</app> в другое "
+"приложение."
+
+#. (itstool) path: steps/title
+#: C/text-copy.page:33
+msgid "Copy a definition"
+msgstr "Копирование определения"
+
+#. (itstool) path: item/p
+#: C/text-copy.page:35
+msgid ""
+"Select the text that you want to copy in <app>Dictionary</app>. "
+"Alternatively, you can select the whole definition using <guiseq><gui style="
+"\"menu\">Edit</gui> <gui style=\"menuitem\">Select All</gui></guiseq>."
+msgstr ""
+"Выберите текст, который вы хотите скопировать в <app>Словаре</app>. Также "
+"можно выделить все определение с помощью кнопки <guiseq><gui style=\"menu"
+"\">Редактировать</gui> <gui style=\"menuitem\">Выбрать все</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/text-copy.page:41
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Copy</"
+"gui></guiseq>."
+msgstr ""
+"Выберите <guiseq><gui style=\"menu\">Редактировать</gui> <gui style="
+"\"menuitem\">Копировать</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/text-copy.page:45
+msgid ""
+"Paste the text into another application. This can usually be done using the "
+"<keyseq><key>Ctrl</key><key>V</key></keyseq> keyboard shortcut or through "
+"one of the menus."
+msgstr ""
+"Вставьте текст в другое приложение. Обычно это можно сделать с помощью "
+"<keyseq><key>Ctrl</key><key>V</key></keyseq> или через одно из меню."
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-application.png'; "
+#~ "md5=fb48a9e5863bfb2b3811df2e28489eb7"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-application.png'; "
+#~ "md5=fb48a9e5863bfb2b3811df2e28489eb7"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-lookup.png'; "
+#~ "md5=c41c96af4de54f457a2081aad009a8d0"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-lookup.png'; "
+#~ "md5=c41c96af4de54f457a2081aad009a8d0"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-find.png'; "
+#~ "md5=d8bf0677084e2d9998a7942faaab5379"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-find.png'; "
+#~ "md5=d8bf0677084e2d9998a7942faaab5379"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-preferences-source.png'; "
+#~ "md5=5470b15e64e66924477f150c4f47e96d"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-preferences-source.png'; "
+#~ "md5=5470b15e64e66924477f150c4f47e96d"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-add-source.png'; "
+#~ "md5=d059507fee77bb176fce53373951756b"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-add-source.png'; "
+#~ "md5=d059507fee77bb176fce53373951756b"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-preferences-print.png'; "
+#~ "md5=12a65f07cb333db4c7ba743d1d12a00f"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-preferences-print.png'; "
+#~ "md5=12a65f07cb333db4c7ba743d1d12a00f"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-applet.png'; "
+#~ "md5=538c7fa191540f99dd964963a1079677"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-applet.png'; "
+#~ "md5=538c7fa191540f99dd964963a1079677"
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-dictionary-applet-window.png'; "
+#~ "md5=e26ac4847d2e7b53c6bba7d8e1a519c4"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-dictionary-applet-window.png'; "
+#~ "md5=e26ac4847d2e7b53c6bba7d8e1a519c4"
+
+#~ msgid "Dictionary Manual"
+#~ msgstr "Руководство по приложению «Словарь»"
+
+#~ msgid ""
+#~ "Dictionary enables you to look up definitions and correct spellings of "
+#~ "words."
+#~ msgstr ""
+#~ "Словарь позволяет искать определения слов, их правописание и значение."
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "Emmanuele Bassi"
+#~ msgstr "Emmanuele Bassi"
+
+#~ msgid "GNOME Documentation Project"
+#~ msgstr "Проект документирования GNOME"
+
+#~ msgid "Emmanuele"
+#~ msgstr "Emmanuele"
+
+#~ msgid "Bassi"
+#~ msgstr "Bassi"
+
+#~ msgid "ebassi@gmail.com"
+#~ msgstr "ebassi@gmail.com"
+
+#~ msgid "Dictionary Manual V1.0.0"
+#~ msgstr "Руководство по приложению «Словарь» версии 1.0.0"
+
+#~ msgid "This manual describes version 2.14.0 of Dictionary."
+#~ msgstr "Это руководство описывает версию 2.14.0 приложения «Словарь»."
+
+#~ msgid "Feedback"
+#~ msgstr "Обратная связь"
+
+#~ msgid ""
+#~ "To report a bug or make a suggestion regarding the Dictionary application "
+#~ "or this manual, follow the directions in the <ulink url=\"ghelp:gnome-"
+#~ "feedback\" type=\"help\">GNOME Feedback Page</ulink>."
+#~ msgstr ""
+#~ "Для того, чтобы сообщить об ошибке или сделать предложение по апплету "
+#~ "«Словарь» или этому руководству, следуйте инструкциями на странице <ulink "
+#~ "url=\"ghelp:gnome-feedback\" type=\"help\">Обратная связь с GNOME</ulink>."
+
+#~ msgid ""
+#~ "The <application>Dictionary</application> application enables you to "
+#~ "search words and terms on a dictionary source."
+#~ msgstr ""
+#~ "Приложение <application>Словарь</application> позволяет искать "
+#~ "определения слов и понятий в словарях."
+
+#~ msgid "Getting Started"
+#~ msgstr "Начало работы"
+
+#~ msgid ""
+#~ "You can start <application>Dictionary</application> in the following ways:"
+#~ msgstr ""
+#~ "Можно запустить приложение <application>Словарь</application> следующими "
+#~ "способами:"
+
+#~ msgid "<guimenu>Applications</guimenu> menu"
+#~ msgstr "Из меню <guimenu>Приложения</guimenu>"
+
+#~ msgid ""
+#~ "Choose <menuchoice><guisubmenu>Accessories</"
+#~ "guisubmenu><guimenuitem>Dictionary</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Выберите <menuchoice><guisubmenu>Стандартные</"
+#~ "guisubmenu><guimenuitem>Словарь</guimenuitem></menuchoice>."
+
+#~ msgid "Command line"
+#~ msgstr "Из командной строки"
+
+#~ msgid "Execute the following command: <command>gnome-dictionary</command>"
+#~ msgstr "Выполните следующую команду: <command>gnome-dictionary</command>"
+
+#~ msgid "Dictionary Window"
+#~ msgstr "Окно словаря"
+
+#~ msgid "Usage"
+#~ msgstr "Использование"
+
+#~ msgid ""
+#~ "To look up a word, type it into the <guilabel>entry field</guilabel> and "
+#~ "press <keycap>Enter</keycap>."
+#~ msgstr ""
+#~ "Для поиска слова введите его в поле <guilabel>ввода</guilabel> и нажмите "
+#~ "<keycap>Enter</keycap>."
+
+#~ msgid ""
+#~ "If some definition for the word is found, it will appear inside the main "
+#~ "window area:"
+#~ msgstr ""
+#~ "Если какая-то словарная статья будет найдена, она появится в главном окне"
+
+#~ msgid "Shows a definition inside the Dictionary main window."
+#~ msgstr "Показывает определение внутри окна Словаря."
+
+#~ msgid ""
+#~ "Otherwise, an error dialog will appear, with a message explaining the "
+#~ "nature of the error."
+#~ msgstr ""
+#~ "В противном случае появится диалог, сообщающий об ошибке с сообщением, "
+#~ "более подробно её описывающим."
+
+#~ msgid "Save look up results"
+#~ msgstr "Сохранить результаты поиска"
+
+#~ msgid ""
+#~ "To save the results of a look up, choose <menuchoice><guimenu>File</"
+#~ "guimenu><guimenuitem>Save a Copy</guimenuitem></menuchoice>. Enter a name "
+#~ "for the file in the <guilabel>Save a Copy</guilabel> dialog, then click "
+#~ "<guibutton>Save</guibutton>."
+#~ msgstr ""
+#~ "Для сохранения результатов поиска, выберите меню "
+#~ "<menuchoice><guimenu>Файл</guimenu><guimenuitem>Сохранить копию</"
+#~ "guimenuitem></menuchoice>. Введите имя файла в появившемся диалоге "
+#~ "<guilabel>Сохранить копию</guilabel> и нажмите на кнопку "
+#~ "<guibutton>Сохранить</guibutton>."
+
+#~ msgid "Print look up results"
+#~ msgstr "Напечатать результаты поиска"
+
+#~ msgid ""
+#~ "To print the results of a look up, choose <menuchoice><guimenu>File</"
+#~ "guimenu><guimenuitem>Print</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Для печати результатов поиска, выберите меню <menuchoice><guimenu>Файл</"
+#~ "guimenu><guimenuitem>Печать</guimenuitem></menuchoice>."
+
+#~ msgid ""
+#~ "Inside the <guilabel>Print</guilabel> dialog you can select the printer "
+#~ "to use, the paper format, the number of copies."
+#~ msgstr ""
+#~ "В диалоге <guilabel>Печать</guilabel> можно выбрать используемый принтер "
+#~ "и формат бумаги, число печатаемых копий."
+
+#~ msgid ""
+#~ "To see a preview of what will be printed, click <guibutton>Preview</"
+#~ "guibutton>."
+#~ msgstr ""
+#~ "Для предварительного просмотра того, что будет напечатано, нажмите "
+#~ "<guibutton>Предварительный просмотр</guibutton>."
+
+#~ msgid "To print, click <guibutton>Print</guibutton>."
+#~ msgstr "Для печати нажмите <guibutton>Печать</guibutton>."
+
+#~ msgid "Shows the Dictionary Find pane inside the main window."
+#~ msgstr "Показывает панель поиска текста в главном окне"
+
+#~ msgid ""
+#~ "To find text inside the results of a look up, perform the following steps:"
+#~ msgstr "Для поиска текста в словарной статье, сделайте следующее:"
+
+#~ msgid ""
+#~ "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find</"
+#~ "guimenuitem></menuchoice> to display the <guilabel>Find</guilabel> pane."
+#~ msgstr ""
+#~ "Выберите <menuchoice><guimenu>Правка</guimenu><guimenuitem>Найти</"
+#~ "guimenuitem></menuchoice> для отображения панели  <guilabel>Поиск</"
+#~ "guilabel>."
+
+#~ msgid ""
+#~ "Type the text you want to find inside the <guilabel>Search</guilabel> "
+#~ "entry."
+#~ msgstr ""
+#~ "Наберите текст, который нужно найти внутри поле ввода <guilabel>Найти</"
+#~ "guilabel>."
+
+#~ msgid ""
+#~ "To find the next occurrence of the text, click <guibutton>Next</"
+#~ "guibutton>. To find the previous occurrence of the text, click "
+#~ "<guibutton>Previous</guibutton>."
+#~ msgstr ""
+#~ "Для поиска следующего вхождения слова, нажмите кнопку <guibutton>Найти "
+#~ "следующее</guibutton>. Для нахождения предыдущего вхождения нажмите "
+#~ "<guibutton>Найти предыдущее</guibutton>."
+
+#~ msgid ""
+#~ "To change the <application>Dictionary</application> application "
+#~ "preferences, choose <menuchoice><guimenu>Edit</"
+#~ "guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Для правки параметров приложения <application>Словарь</application> "
+#~ "выберите <menuchoice><guimenu>Правка</guimenu><guimenuitem>Параметры</"
+#~ "guimenuitem></menuchoice>."
+
+#~ msgid "Shows the Source tab of the Preferences dialog."
+#~ msgstr ""
+#~ "Показывает закладку источников поиска словарных статей в диалоге "
+#~ "параметров."
+
+#~ msgid ""
+#~ "To change the dictionary source used to look up words, select the desired "
+#~ "source from the list."
+#~ msgstr ""
+#~ "Для изменения источников поиска словарных статей, выберите требуемых "
+#~ "источник из списка."
+
+#~ msgid "Adding a new source"
+#~ msgstr "Добавление нового источника словарных статей"
+
+#~ msgid "Shows the Add Source dialog."
+#~ msgstr "Показывает диалог добавления нового источника словарных статей"
+
+#~ msgid "To add a new dictionary source, perform the following steps:"
+#~ msgstr "Для того, чтобы добавить новый источник, сделайте следующее:"
+
+#~ msgid "Click on the <guibutton>Add</guibutton> button"
+#~ msgstr "Нажмите на кнопку <guibutton>Добавить</guibutton>"
+
+#~ msgid ""
+#~ "Edit the name of the new source inside the <guilabel>Description</"
+#~ "guilabel> entry"
+#~ msgstr ""
+#~ "Задайте имя нового источинка в поле ввода <guilabel>Описание</guilabel>"
+
+#~ msgid ""
+#~ "Change the transport type of the new source using the "
+#~ "<guilabel>Transport</guilabel> combo box"
+#~ msgstr ""
+#~ "Измените тип транспора для нового источника в выпадающем списке "
+#~ "<guilabel>Транспорт</guilabel>"
+
+#~ msgid "Edit the attributes of the new source"
+#~ msgstr "Правка параметров нового источника словарных статей"
+
+#~ msgid "Click <guibutton>Add</guibutton>"
+#~ msgstr "Нажмите на кнопку <guibutton>Добавить</guibutton>"
+
+#~ msgid ""
+#~ "Different source transport types uses different attributes. This is the "
+#~ "list of available attributes per transport type:"
+#~ msgstr ""
+#~ "Различные источники словарных статей могут задаваться различными "
+#~ "параметрами. Список доступных параметров для каждого типа транспорта:"
+
+#~ msgid "Transport"
+#~ msgstr "Транспорт"
+
+#~ msgid "Attributes"
+#~ msgstr "Параметры"
+
+#~ msgid "Dictionary Server"
+#~ msgstr "Сервер словарных статей"
+
+#~ msgid "Removing a source"
+#~ msgstr "Удаление источника статей"
+
+#~ msgid "To remove a dictionary source, perform the following steps:"
+#~ msgstr "Для удаления источника статей, сделайте следующее:"
+
+#~ msgid "Click the <guibutton>Remove</guibutton> button"
+#~ msgstr "Нажмите на кнопку <guibutton>Удалить</guibutton>."
+
+#~ msgid ""
+#~ "If you remove a dictionary source it will be permanently deleted from the "
+#~ "list of available sources. Also, as some sources might be defined system-"
+#~ "wide you may actually not be able to remove them unless you have the "
+#~ "right ownership privileges."
+#~ msgstr ""
+#~ "Если вы удаляете источник поиска словарных статей, он будет удалён "
+#~ "навсегда из списка используемых источников. Также, некоторые источники "
+#~ "статей могут быть определены системным администратором и вы не сможете "
+#~ "удалить их, не получив достаточных для этого прав доступа."
+
+#~ msgid "Shows the Print tab inside the Preferences dialog."
+#~ msgstr "Показывает вкладку параметров печати в диалоге параметров."
+
+#~ msgid "Click on the <guilabel>Print Font</guilabel> button"
+#~ msgstr "Нажмите на кнопку <guilabel>Шрифт печати</guilabel>"
+
+#~ msgid "Click <guibutton>Ok</guibutton>"
+#~ msgstr "Нажмите на кнопку <guibutton>OK</guibutton>"
+
+#~ msgid "The Dictionary Applet"
+#~ msgstr "Апплет «Словарь»"
+
+#~ msgid ""
+#~ "The <application>Dictionary</application> application comes with a panel "
+#~ "applet, the <application>Dictionary Applet</application>. You can add the "
+#~ "<application>Dictionary Applet</application> applet to a panel and look "
+#~ "up words in dictionaries."
+#~ msgstr ""
+#~ "Приложение <application>Словарь</application> также содержит апплет "
+#~ "панели рабочего стола, называемый апплет <application>Словарь</"
+#~ "application>. Можно добавить апплет <application>Словарь</application> на "
+#~ "панель и использовать его для быстрого поиска слова в словарях."
+
+#~ msgid "Dictionary Applet Window"
+#~ msgstr "Окно апплета «Словарь»"
+
+#~ msgid "Shows Dictionary Applet."
+#~ msgstr "Показывает апплет «Словарь»."
+
+#~ msgid "To Start Dictionary Applet"
+#~ msgstr "Для запуска апплета «Словарь»"
+
+#~ msgid ""
+#~ "To add <application>Dictionary Applet</application> to a panel, right-"
+#~ "click on the panel, then choose <guimenuitem>Add to Panel</guimenuitem>. "
+#~ "Select Dictionary Applet in the <application>Add to the panel</"
+#~ "application> dialog, then click <guibutton>OK</guibutton>."
+#~ msgstr ""
+#~ "Для того, чтобы добавить апплет <application>Словарь</application> на "
+#~ "панель, щёлкните правой кнопкой мыши по панели, затем выберите "
+#~ "<guimenuitem>Добавить</guimenuitem>. Выберите апплет в диалоге "
+#~ "<application>Добавить на панель</application>, затем нажмите на кнопку "
+#~ "<guibutton>ОК</guibutton>."
+
+#~ msgid "Using the Dictionary Applet"
+#~ msgstr "Использование апплета «Словарь»"
+
+#~ msgid ""
+#~ "To look up a word, type it into the <guilabel>entry field</guilabel>, and "
+#~ "press <keycap>Enter</keycap> or right-click on the dictionary icon and "
+#~ "then choose <guimenuitem>Look up</guimenuitem>."
+#~ msgstr ""
+#~ "Для поиска слова, наберите его в <guilabel>поле ввода</guilabel> и "
+#~ "нажмите клавишу <keycap>Enter</keycap> или щёлкните правой кнопкой мыши "
+#~ "по значку словаря. Затем выберите <guimenuitem>Искать</guimenuitem>"
+
+#~ msgid ""
+#~ "If some definition for the word was found, a window will appear, with the "
+#~ "text of the definitions:"
+#~ msgstr ""
+#~ "Если описание слова было найдено, появится окно с текстом словарной "
+#~ "статьи:"
+
+#~ msgid "Shows Dictionary Applet main window."
+#~ msgstr "Показывает главное окно апплета «Словарь»"
+
+#~ msgid ""
+#~ "Click <guibutton>Save</guibutton> to save the definitions to a text file. "
+#~ "Click <guibutton>Print</guibutton> to print the definitions. Click "
+#~ "<guibutton>Clear</guibutton> to clear the definitions."
+#~ msgstr ""
+#~ "Нажмите на кнопку <guibutton>Сохранить</guibutton>для сохранения "
+#~ "определения в текстовый файл. Нажмите <guibutton>Print</guibutton> для "
+#~ "печати определения. Нажмите <guibutton>Очистить</guibutton> для очистки "
+#~ "содержания словарной статьи."
+
+#~ msgid ""
+#~ "You can make the window disappear by left-clicking on the dictionary icon "
+#~ "or by pressing <keycap>Esc</keycap>."
+#~ msgstr ""
+#~ "Можно убрать окно словаря, щёлкнув по значку левой кнопкой мыши или "
+#~ "нажмите <keycap>Esc</keycap>."
+
+#~ msgid ""
+#~ "To configure the <application>Dictionary Applet</application>, right-"
+#~ "click on the dictionary icon, then choose <guimenuitem>Preferences</"
+#~ "guimenuitem>."
+#~ msgstr ""
+#~ "Для настройки апплета <application>Словарь</application>, кликните правой "
+#~ "кнопой мыши по значку словаря, затем выберите <guimenuitem>Параметры</"
+#~ "guimenuitem>."
+
+#~ msgid ""
+#~ "The <guilabel>Preferences</guilabel> dialog is the same used by the "
+#~ "<application>Dictionary</application> application, so refer to <xref "
+#~ "linkend=\"gnome-dictionary-preferences\"/>"
+#~ msgstr ""
+#~ "Диалог <guilabel>Параметры</guilabel> также используется приложением "
+#~ "<application>Словарь</application>. Подробная информация о нём может быть "
+#~ "найдена в <xref linkend=\"gnome-dictionary-preferences\"/>"
