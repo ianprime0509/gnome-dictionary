@@ -28,13 +28,13 @@ msgstr ""
 
 #: data/appdata/org.gnome.Dictionary.appdata.xml.in.in:6
 msgid "GNOME Dictionary"
-msgstr "Diccionari GNOME"
+msgstr "Diccionari del GNOME"
 
 #: data/appdata/org.gnome.Dictionary.appdata.xml.in.in:7
 #: data/org.gnome.Dictionary.desktop.in.in:4
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr ""
-"Comprova les definicions de paraules i l'ortografia en un diccionari en línia"
+"Cerqueu les definicions de paraules i l'ortografia en un diccionari en línia"
 
 #: data/appdata/org.gnome.Dictionary.appdata.xml.in.in:9
 msgid ""
