@@ -5,6 +5,7 @@
 
   <info>
     <revision pkgversion="3.6" version="0.1" date="2013-03-29" status="candidate"/>
+    <revision pkgversion="40.0" version="0.2" date="2021-08-09" status="candidate"/>
     <link type="guide" xref="index#features"/>
 
     <credit type="author copyright">
@@ -36,16 +37,14 @@
       <gui style="menuitem">Find</gui>.</p>
     </item>
     <item>
-      <p>The <gui>Find</gui> bar will appear at the bottom of the
+      <p>The <gui>Find</gui> bar will appear at the top of the
       <app>Dictionary</app> window. Type in your search term to search within
       the definition that is currently displayed.</p>
     </item>
     <item>
-      <p>Click <gui style="button">Previous</gui> or
-      <gui style="button">Next</gui> to scroll through the results. The search
+      <p>Press the Up or Down buttons to scroll through the results. The search
       will not wrap around: in other words, it will not go to the top of the
-      page when you are on the last result and click
-      <gui style="button">Next</gui>.</p>
+      page when you are on the last result and press the Down button.</p>
     </item>
   </steps>
 
