@@ -37,8 +37,8 @@
 
     <steps>
       <item>
-        <p>Select <guiseq><gui style="menu">File</gui>
-        <gui style="menuitem">Preview</gui></guiseq>.</p>
+        <p>Press the menu button in the top-right corner of the window and
+        select <gui style="menuitem">Preview</gui>.</p>
       </item>
       <item>
         <p>A print preview window will open which will show you the definition
@@ -54,13 +54,6 @@
       </item>
     </steps>
 
-    <note>
-      <p>The print button in the toolbar may not always work. If it does not
-      work for you, close the window and select
-      <guiseq><gui style="menu">File</gui>
-      <gui style="menuitem">Print</gui></guiseq>.</p>
-    </note>
-
   </section>
 
   <section id="print">
@@ -71,9 +64,11 @@
 
     <steps>
       <item>
-        <p>Select <guiseq><gui style="menu">File</gui>
-        <gui style="menuitem">Print</gui>
-        <gui style="tab">General</gui></guiseq>.</p>
+        <p>Press the menu button in the top-right corner of the window and
+        select <gui style="menuitem">Print</gui>.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">General</gui>.</p>
       </item>
       <item>
         <p>Select the printer that you want to use from the list of printers
