@@ -5,6 +5,7 @@
 
   <info>
     <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <revision pkgversion="40.0" version="0.2" date="2021-08-09" status="candidate"/>
     <link type="guide" xref="index#features"/>
     <link type="seealso" xref="definition"/>
     <link type="seealso" xref="print-font"/>
@@ -46,11 +47,10 @@
         exactly as it will be printed.</p>
       </item>
       <item>
-	<p>Use the toolbar to browse pages, adjust zoom level and page
-	width.</p>
+	<p>Use the header bar to browse pages and adjust the zoom level.</p>
       </item>
       <item>
-        <p>Click the <gui style="button">Print this document</gui> to print
+        <p>Press <gui style="button">Print</gui> to print
         the definition or close the window to end the preview.</p>
       </item>
     </steps>
