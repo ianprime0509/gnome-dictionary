@@ -33,10 +33,14 @@
   <steps>
     <title>Temporarily change the dictionary source:</title>
     <item>
-      <p>Press the button next to the search field.</p>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">View</gui><gui style="menuitem">Dictionary
+      Sources</gui></guiseq>. A sidebar listing the available dictionary
+      sources will open.</p>
     </item>
     <item>
-      <p>Select the dictionary source that you want to use.</p>
+      <p>Select the dictionary source that you want to use, either by
+      double-clicking it or pressing <key>Enter</key>.</p>
     </item>
   </steps>
 
