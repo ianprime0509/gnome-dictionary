@@ -31,9 +31,11 @@
   <steps>
     <title>Delete a dictionary source:</title>
     <item>
-      <p>Select <guiseq><gui style="menu"><app>Dictionary</app></gui>
-      <gui style="menuitem">Preferences</gui>
-      <gui style="tab">Source</gui></guiseq>.</p>
+      <p>Press the menu button in the top-right corner of the window and
+      select <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Source</gui>.</p>
     </item>
     <item>
       <p>Select the dictionary source that you want to delete.</p>
