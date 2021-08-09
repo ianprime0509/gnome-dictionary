@@ -4,6 +4,7 @@
 
   <info>
     <revision pkgversion="3.6" version="0.1" date="2013-03-30" status="candidate"/>
+    <revision pkgversion="40.0" version="0.2" date="2021-08-09" status="candidate"/>
     <link type="guide" xref="index#features"/>
     <link type="seealso" xref="similar-words"/>
     <link type="seealso" xref="sources-select"/>
@@ -45,8 +46,9 @@
 
   <p><app>Dictionary</app> will search your selected dictionary source and
   show you the result from the first dictionary in the source. To view results
-  from the other dictionaries that are in the same source, select
-  <link xref="similar-words"><guiseq><gui style="menu">View</gui>
+  from the other dictionaries that are in the same source, press the menu
+  button in the top-right corner of the window and select
+  <link xref="similar-words"><guiseq><gui style="menuitem">View</gui>
   <gui style="menuitem">Similar Words</gui></guiseq></link> to pop up a
   sidebar that shows all the results.</p>
 

@@ -4,6 +4,7 @@
 
   <info>
     <revision pkgversion="3.6" version="0.1" date="2013-03-28" status="candidate"/>
+    <revision pkgversion="40.0" version="0.2" date="2021-08-09" status="candidate"/>
     <link type="guide" xref="index#features"/>
     <link type="seealso" xref="sources"/>
 
@@ -34,8 +35,8 @@
       <p><link xref="definition">Look up</link> the desired term.</p>
     </item>
     <item>
-      <p>If the sidebar is not already visible, select
-      <guiseq><gui style="menu">View</gui>
+      <p>If the sidebar is not already visible, press the menu button in the
+      top-right corner of the window and select <guiseq><gui style="menuitem">View</gui>
       <gui style="menuitem">Similar Words</gui></guiseq>.</p>
     </item>
     <item>
