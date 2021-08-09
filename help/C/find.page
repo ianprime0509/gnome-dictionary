@@ -31,8 +31,8 @@
   <steps>
     <title>To find definitions:</title>
     <item>
-      <p>Select <guiseq><gui style="menu">Edit</gui>
-      <gui style="menuitem">Find</gui></guiseq>.</p>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Find</gui>.</p>
     </item>
     <item>
       <p>The <gui>Find</gui> bar will appear at the bottom of the
