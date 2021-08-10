@@ -6,16 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils dictionary manual\n"
-"POT-Creation-Date: 2021-08-09 14:31+0000\n"
-"PO-Revision-Date: 2021-08-09 17:49+0300\n"
+"POT-Creation-Date: 2021-08-09 19:47+0000\n"
+"PO-Revision-Date: 2021-08-10 13:01+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 20.12.0\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -26,38 +25,38 @@ msgstr ""
 "Юрій Чорноіван <yurchor@ukr.net>, 2020"
 
 #. (itstool) path: credit/name
-#: C/definition.page:13 C/dictionary-select.page:12 C/find.page:11
-#: C/index.page:11 C/introduction.page:11 C/keyboard-shortcuts.page:12
-#: C/pref.page:10 C/print-font.page:13 C/print.page:13
-#: C/prob-retrieving-definition.page:12 C/save-definition.page:11
+#: C/definition.page:13 C/dictionary-select.page:13 C/find.page:12
+#: C/index.page:11 C/introduction.page:11 C/keyboard-shortcuts.page:13
+#: C/pref.page:10 C/print-font.page:13 C/print.page:14
+#: C/prob-retrieving-definition.page:12 C/save-definition.page:12
 #: C/similar-words.page:13 C/source-add-local.page:12 C/sources-default.page:12
-#: C/sources-delete.page:13 C/sources-edit.page:11 C/sources.page:13
+#: C/sources-delete.page:13 C/sources-edit.page:12 C/sources.page:14
 #: C/sources-select.page:14 C/text-copy.page:13
 msgid "Sindhu S"
 msgstr "Sindhu S"
 
 #. (itstool) path: credit/years
-#: C/definition.page:15 C/definition.page:20 C/dictionary-select.page:14
-#: C/dictionary-select.page:19 C/find.page:13 C/find.page:18 C/index.page:13
-#: C/introduction.page:13 C/introduction.page:18 C/keyboard-shortcuts.page:14
-#: C/keyboard-shortcuts.page:19 C/print-font.page:15 C/print-font.page:20
-#: C/print.page:15 C/print.page:20 C/prob-retrieving-definition.page:14
-#: C/prob-retrieving-definition.page:19 C/save-definition.page:13
-#: C/save-definition.page:18 C/similar-words.page:15 C/similar-words.page:20
+#: C/definition.page:15 C/definition.page:20 C/dictionary-select.page:15
+#: C/dictionary-select.page:20 C/find.page:14 C/find.page:19 C/index.page:13
+#: C/introduction.page:13 C/introduction.page:18 C/keyboard-shortcuts.page:15
+#: C/keyboard-shortcuts.page:20 C/print-font.page:15 C/print-font.page:20
+#: C/print.page:16 C/print.page:21 C/prob-retrieving-definition.page:14
+#: C/prob-retrieving-definition.page:19 C/save-definition.page:14
+#: C/save-definition.page:19 C/similar-words.page:15 C/similar-words.page:20
 #: C/source-add-local.page:14 C/sources-default.page:14
 #: C/sources-default.page:19 C/sources-delete.page:15 C/sources-delete.page:20
-#: C/sources-edit.page:13 C/sources-edit.page:18 C/sources.page:15
-#: C/sources.page:20 C/sources-select.page:16 C/sources-select.page:21
+#: C/sources-edit.page:14 C/sources-edit.page:19 C/sources.page:16
+#: C/sources.page:21 C/sources-select.page:16 C/sources-select.page:21
 #: C/text-copy.page:15 C/text-copy.page:20
 msgid "2013"
 msgstr "2013"
 
 #. (itstool) path: credit/name
-#: C/definition.page:18 C/dictionary-select.page:17 C/find.page:16
-#: C/introduction.page:16 C/keyboard-shortcuts.page:17 C/print-font.page:18
-#: C/print.page:18 C/prob-retrieving-definition.page:17
-#: C/save-definition.page:16 C/similar-words.page:18 C/sources-default.page:17
-#: C/sources-delete.page:18 C/sources-edit.page:16 C/sources.page:18
+#: C/definition.page:18 C/dictionary-select.page:18 C/find.page:17
+#: C/introduction.page:16 C/keyboard-shortcuts.page:18 C/print-font.page:18
+#: C/print.page:19 C/prob-retrieving-definition.page:17
+#: C/save-definition.page:17 C/similar-words.page:18 C/sources-default.page:17
+#: C/sources-delete.page:18 C/sources-edit.page:17 C/sources.page:19
 #: C/sources-select.page:19 C/text-copy.page:18
 msgid "Ekaterina Gerasimova"
 msgstr "Єкатерина Герасимова (Ekaterina Gerasimova)"
@@ -88,29 +87,25 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/definition.page:39
+#| msgid ""
+#| "Type in the term that you want to search for next to <gui>Look up</gui>."
 msgid ""
-"Type in the term that you want to search for next to <gui>Look up</gui>."
+"Type the term that you want to search for into the search field in the "
+"header bar."
 msgstr ""
-"Введіть термін, який ви хочете знайти, у поле, розташоване поруч із міткою "
-"<gui>Шукати</gui>."
+"Введіть термін, який ви хочете знайти, у поле для пошуку на панелі заголовка."
 
 #. (itstool) path: item/p
 #: C/definition.page:43
-msgid ""
-"Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
+#| msgid ""
+#| "Press <key>Return</key> or <gui style=\"button\">Look up:</gui> to search."
+msgid "Press <key>Return</key> to search."
 msgstr ""
-"Натисніть <key>Enter</key> або <gui style=\"button\">Шукати</gui>, щоб "
+"Натисніть <key>Enter</key>, щоб "
 "розпочати пошук."
 
 #. (itstool) path: page/p
-#: C/definition.page:48
-#| msgid ""
-#| "<app>Dictionary</app> will search your selected dictionary source and "
-#| "show you the result from the first dictionary in the source. To view "
-#| "results from the other dictionaries that are in the same source, select "
-#| "<link xref=\"similar-words\"><guiseq><gui style=\"menu\">View</gui> <gui "
-#| "style=\"menuitem\">Similar Words</gui></guiseq></link> to pop up a "
-#| "sidebar that shows all the results."
+#: C/definition.page:47
 msgid ""
 "<app>Dictionary</app> will search your selected dictionary source and show "
 "you the result from the first dictionary in the source. To view results from "
@@ -122,20 +117,19 @@ msgid ""
 msgstr ""
 "<app>Словник</app> шукатиме у вашому вибраному джерелі словників і покаже "
 "вам результат з першого словника у джерелі. Щоб переглянути результати з "
-"інших словників із того самого джерела, натисніть кнопку меню у верхньому"
-" правому куті вікна і скористайтеся пунктом <link xref="
-"\"similar-words\"><guiseq><gui style=\"menu\">Перегляд</gui> <gui"
-" style=\"menuitem\">Подібні слова</gui></guiseq></link>, щоб відкрити бічну"
-" панель, "
-"на якій буде показано усі результати."
+"інших словників із того самого джерела, натисніть кнопку меню у верхньому "
+"правому куті вікна і скористайтеся пунктом <link xref=\"similar-words"
+"\"><guiseq><gui style=\"menu\">Перегляд</gui> <gui style=\"menuitem"
+"\">Подібні слова</gui></guiseq></link>, щоб відкрити бічну панель, на якій "
+"буде показано усі результати."
 
 #. (itstool) path: page/title
-#: C/dictionary-select.page:26
+#: C/dictionary-select.page:27
 msgid "Select a different dictionary"
 msgstr "Вибір іншого словника"
 
 #. (itstool) path: page/p
-#: C/dictionary-select.page:28
+#: C/dictionary-select.page:29
 msgid ""
 "A single <link xref=\"sources\">dictionary source</link> may have many "
 "different dictionaries. You can search any of these dictionaries."
@@ -144,36 +138,31 @@ msgstr ""
 "різних словників. Ви можете виконувати пошук у будь-яких словниках."
 
 #. (itstool) path: steps/title
-#: C/dictionary-select.page:33
+#: C/dictionary-select.page:34
 msgid "Select a dictionary"
 msgstr "Вибір словника"
 
 #. (itstool) path: item/p
-#: C/dictionary-select.page:35
-#| msgid ""
-#| "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
-#| "\">Available Databases</gui></guiseq>. A sidebar listing the available "
-#| "dictionaries for your currently selected dictionary source will open."
-msgid ""
-"Press the menu button in the top-right corner of the window and select "
-"<guiseq><gui style=\"menuitem\">View</gui> <gui style=\"menuitem\">Available "
-"Databases</gui></guiseq>. A sidebar listing the available dictionaries for "
-"your currently selected dictionary source will open."
-msgstr ""
-"Натисніть кнопку меню у верхньому правому куті вікна програми і виберіть"
-" пункт меню <guiseq><gui style=\"menuitem\">Перегляд</gui> <gui style="
-"\"menuitem\">Доступні бази даних</gui></guiseq>. У відповідь буде показано "
-"бічну панель зі списком доступних словників для вашого поточного вибраного "
-"джерела словників."
+#: C/dictionary-select.page:36
+#| msgid "Press the button next to the search field."
+msgid "Press the button next to the search field in the header bar."
+msgstr "Натисніть кнопку, яку розташовано поряд із полем для пошуку на панелі заголовка."
 
 #. (itstool) path: item/p
-#: C/dictionary-select.page:42
-#| msgid "Select the dictionary source that you want to delete."
+#: C/dictionary-select.page:37
+msgid ""
+"A list of the available dictionaries for your currently selected dictionary "
+"source will open."
+msgstr ""
+"У відповідь програма відкриє список доступних словників для поточного позначеного джерела словників."
+
+#. (itstool) path: item/p
+#: C/dictionary-select.page:41
 msgid "Select the dictionary that you want to use."
 msgstr "Виберіть словник, яким ви хочете скористатися."
 
 #. (itstool) path: page/p
-#: C/dictionary-select.page:46
+#: C/dictionary-select.page:45
 msgid ""
 "The next term that you <link xref=\"definition\">look up</link> will show "
 "the result only from the selected dictionary."
@@ -182,7 +171,7 @@ msgstr ""
 "буде показано лише результати із вибраного словника."
 
 #. (itstool) path: note/p
-#: C/dictionary-select.page:50
+#: C/dictionary-select.page:49
 msgid ""
 "Your dictionary selection will not be remembered next time you use "
 "<app>Dictionary</app>."
@@ -191,18 +180,18 @@ msgstr ""
 "скористаєтеся <app>Словником</app>."
 
 #. (itstool) path: info/desc
-#: C/find.page:23
+#: C/find.page:24
 msgid "Find text in a definition."
 msgstr "Пошук тексту у визначенні."
 
 #. (itstool) path: page/title
 #. (itstool) path: td/p
-#: C/find.page:27 C/keyboard-shortcuts.page:75
+#: C/find.page:28 C/keyboard-shortcuts.page:76
 msgid "Search within a definition"
 msgstr "Пошук у визначенні"
 
 #. (itstool) path: page/p
-#: C/find.page:29
+#: C/find.page:30
 msgid ""
 "Some dictionary entries can be very long and can contain many results, so "
 "you may wish to search them to find the section that is relevant to you."
@@ -212,41 +201,47 @@ msgstr ""
 "потрібного вам розділу."
 
 #. (itstool) path: steps/title
-#: C/find.page:33
+#: C/find.page:34
 msgid "To find definitions:"
 msgstr "Щоб знайти визначення, виконайте такі дії:"
 
 #. (itstool) path: item/p
-#: C/find.page:35
+#: C/find.page:36
 msgid ""
 "Press the menu button in the top-right corner of the window and select <gui "
 "style=\"menuitem\">Find</gui>."
 msgstr ""
-"Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui"
-" style=\"menuitem\">Знайти</gui>."
+"Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="
+"\"menuitem\">Знайти</gui>."
 
 #. (itstool) path: item/p
-#: C/find.page:39
+#: C/find.page:40
+#| msgid ""
+#| "The <gui>Find</gui> bar will appear at the bottom of the <app>Dictionary</"
+#| "app> window. Type in your search term to search within the definition "
+#| "that is currently displayed."
 msgid ""
-"The <gui>Find</gui> bar will appear at the bottom of the <app>Dictionary</"
-"app> window. Type in your search term to search within the definition that "
-"is currently displayed."
+"The <gui>Find</gui> bar will appear at the top of the <app>Dictionary</app> "
+"window. Type in your search term to search within the definition that is "
+"currently displayed."
 msgstr ""
-"Буде показано панель <gui>Знайти</gui> у нижній частині вікна <app>Словника</"
+"Буде показано панель <gui>Знайти</gui> у верхній частині вікна <app>Словника</"
 "app>. Введіть термін для пошуку у межах показаного визначення."
 
 #. (itstool) path: item/p
-#: C/find.page:44
+#: C/find.page:45
+#| msgid ""
+#| "Click <gui style=\"button\">Previous</gui> or <gui style=\"button\">Next</"
+#| "gui> to scroll through the results. The search will not wrap around: in "
+#| "other words, it will not go to the top of the page when you are on the "
+#| "last result and click <gui style=\"button\">Next</gui>."
 msgid ""
-"Click <gui style=\"button\">Previous</gui> or <gui style=\"button\">Next</"
-"gui> to scroll through the results. The search will not wrap around: in "
-"other words, it will not go to the top of the page when you are on the last "
-"result and click <gui style=\"button\">Next</gui>."
+"Press the Up or Down buttons to scroll through the results. The search will "
+"not wrap around: in other words, it will not go to the top of the page when "
+"you are on the last result and press the Down button."
 msgstr ""
-"Натисніть кнопку <gui style=\"button\">Попереднє</gui> або <gui style="
-"\"button\">Наступне</gui> для переходу списком результатів. Перехід не є "
-"циклічним: якщо ви дійдете до останнього запису і натиснете кнопку <gui "
-"style=\"button\">Наступне</gui>, програма не перейде до першого з "
+"Скористайтеся натисканням кнопок «Вгору» і «Вниз» для переходу списком результатів. Перехід не є "
+"циклічним: якщо ви дійдете до останнього запису і натиснете кнопку «Вниз», програма не перейде до першого з "
 "результатів у списку."
 
 #. (itstool) path: info/title
@@ -337,7 +332,7 @@ msgid "Screenshot showing the <app>Dictionary</app> main window."
 msgstr "Знімок вікна, якому показано головне вікно <app>Словник</app>."
 
 #. (itstool) path: info/desc
-#: C/keyboard-shortcuts.page:24
+#: C/keyboard-shortcuts.page:25
 msgid ""
 "You can use keyboard shortcuts to navigate around <app>Dictionary</app> more "
 "efficiently."
@@ -346,12 +341,12 @@ msgstr ""
 "клавіатурними скороченнями."
 
 #. (itstool) path: page/title
-#: C/keyboard-shortcuts.page:28
+#: C/keyboard-shortcuts.page:29
 msgid "Keyboard shortcuts"
 msgstr "Клавіатурні скорочення"
 
 #. (itstool) path: page/p
-#: C/keyboard-shortcuts.page:30
+#: C/keyboard-shortcuts.page:31
 msgid ""
 "Keyboard shortcuts are combinations of keys that you can use instead of "
 "navigating through the menu. The following shortcuts are available:"
@@ -361,193 +356,144 @@ msgstr ""
 "скорочень:"
 
 #. (itstool) path: table/title
-#: C/keyboard-shortcuts.page:34
+#: C/keyboard-shortcuts.page:35
 msgid "Navigate around <app>Dictionary</app>"
 msgstr "Навігація <app>Словником</app>"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:37 C/keyboard-shortcuts.page:69
-#: C/keyboard-shortcuts.page:93 C/keyboard-shortcuts.page:121
+#: C/keyboard-shortcuts.page:38 C/keyboard-shortcuts.page:70
+#: C/keyboard-shortcuts.page:96 C/keyboard-shortcuts.page:126
 msgid "Action"
 msgstr "Дія"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:38 C/keyboard-shortcuts.page:70
-#: C/keyboard-shortcuts.page:94 C/keyboard-shortcuts.page:122
+#: C/keyboard-shortcuts.page:39 C/keyboard-shortcuts.page:71
+#: C/keyboard-shortcuts.page:97 C/keyboard-shortcuts.page:127
 msgid "Shortcut"
 msgstr "Скорочення"
 
 #. (itstool) path: td/p
 #. (itstool) path: section/title
-#: C/keyboard-shortcuts.page:43 C/print.page:37
+#: C/keyboard-shortcuts.page:44 C/print.page:38
 msgid "Print preview"
 msgstr "Перегляд друку"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:44
+#: C/keyboard-shortcuts.page:45
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
 msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
 
 #. (itstool) path: td/p
 #. (itstool) path: section/title
-#: C/keyboard-shortcuts.page:47 C/print.page:61
+#: C/keyboard-shortcuts.page:48 C/print.page:61
 msgid "Print"
 msgstr "Надрукувати"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:48
+#: C/keyboard-shortcuts.page:49
 msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:51
+#: C/keyboard-shortcuts.page:52
 msgid "View sidebar"
 msgstr "Показати бічну панель"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:52
+#: C/keyboard-shortcuts.page:53
 msgid "<key>F9</key>"
 msgstr "<key>F9</key>"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:55
+#: C/keyboard-shortcuts.page:56
 msgid "Open a new <app>Dictionary</app> window"
 msgstr "Відкрити нове вікно <app>Словник</app>"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:56
+#: C/keyboard-shortcuts.page:57
 msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:59
+#: C/keyboard-shortcuts.page:60
 msgid "Close current <app>Dictionary</app> window"
 msgstr "Закрити поточне вікно <app>Словник</app>"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:60
+#: C/keyboard-shortcuts.page:61
 msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
 
 #. (itstool) path: table/title
-#: C/keyboard-shortcuts.page:66
+#: C/keyboard-shortcuts.page:67
 msgid "Search shortcuts"
 msgstr "Скорочення пошуку"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:76
-msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
-msgstr "<key>/</key> або <keyseq><key>Ctrl</key><key>F</key></keyseq>"
-
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:79
-msgid "Find next"
-msgstr "Знайти наступне"
-
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:80
-msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
-msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
-
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:83
-msgid "Find previous"
-msgstr "Знайти попереднє"
-
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:84
-msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
-msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+#: C/keyboard-shortcuts.page:77
+#| msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+msgid "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
 
 #. (itstool) path: table/title
-#: C/keyboard-shortcuts.page:90
+#: C/keyboard-shortcuts.page:93
 msgid "Navigate within a definition"
 msgstr "Навігація у визначенні"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:99
-msgid "Previous definition"
-msgstr "Попереднє визначення"
-
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:100
-msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
-msgstr "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
-
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:103
-msgid "Next definition"
-msgstr "Наступне визначення"
-
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:104
-msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
-msgstr "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
-
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:107
+#: C/keyboard-shortcuts.page:112
 msgid "First definition"
 msgstr "Перше визначення"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:108
+#: C/keyboard-shortcuts.page:113
 msgid "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:111
+#: C/keyboard-shortcuts.page:116
 msgid "Last definition"
 msgstr "Останнє визначення"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:112
+#: C/keyboard-shortcuts.page:117
 msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
 
 #. (itstool) path: table/title
-#: C/keyboard-shortcuts.page:118
+#: C/keyboard-shortcuts.page:123
 msgid "<app>Dictionary</app> definitions shortcuts:"
 msgstr "Скорочення визначень <app>Словника</app>:"
 
 #. (itstool) path: td/p
 #. (itstool) path: page/title
-#: C/keyboard-shortcuts.page:127 C/similar-words.page:29
+#: C/keyboard-shortcuts.page:132 C/similar-words.page:29
 msgid "Similar words"
 msgstr "Подібні слова"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:128
+#: C/keyboard-shortcuts.page:133
 msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 
 #. (itstool) path: td/p
 #. (itstool) path: page/title
-#: C/keyboard-shortcuts.page:131 C/sources.page:29
+#: C/keyboard-shortcuts.page:136 C/sources.page:30
 msgid "Dictionary sources"
 msgstr "Джерела словників"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:132
+#: C/keyboard-shortcuts.page:137
 msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:135
-msgid "Available databases"
-msgstr "Доступні бази даних"
-
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:136
-msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
-msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
-
-#. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:139
+#: C/keyboard-shortcuts.page:146
 msgid "Available strategies"
 msgstr "Доступні стратегії"
 
 #. (itstool) path: td/p
-#: C/keyboard-shortcuts.page:140
+#: C/keyboard-shortcuts.page:147
 msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
 
@@ -606,7 +552,7 @@ msgstr "Зміна шрифту"
 
 #. (itstool) path: item/p
 #: C/print-font.page:37 C/sources-default.page:36 C/sources-delete.page:36
-#: C/sources-edit.page:33
+#: C/sources-edit.page:34
 msgid ""
 "Press the menu button in the top-right corner of the window and select <gui "
 "style=\"menuitem\">Preferences</gui>."
@@ -616,7 +562,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/print-font.page:41
-#| msgid "Press <gui style=\"button\">Remove</gui>."
 msgid "Select <gui style=\"tab\">Print</gui>."
 msgstr "Виберіть вкладку <gui style=\"tab\">Надрукувати</gui>."
 
@@ -660,17 +605,17 @@ msgstr ""
 "обрізано."
 
 #. (itstool) path: info/desc
-#: C/print.page:25
+#: C/print.page:26
 msgid "Print preview and print definitions."
 msgstr "Перегляд друку і друк визначень."
 
 #. (itstool) path: page/title
-#: C/print.page:29
+#: C/print.page:30
 msgid "Print a definition"
 msgstr "Друк визначення"
 
 #. (itstool) path: page/p
-#: C/print.page:31
+#: C/print.page:32
 msgid ""
 "You can print a definition to paper or a file. Before printing, you should "
 "preview the definition as it would be printed to check that the text fits "
@@ -683,16 +628,16 @@ msgstr ""
 "font\">розмір шрифту для друку</link>."
 
 #. (itstool) path: item/p
-#: C/print.page:41
+#: C/print.page:42
 msgid ""
 "Press the menu button in the top-right corner of the window and select <gui "
 "style=\"menuitem\">Preview</gui>."
 msgstr ""
-"Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui"
-" style=\"menuitem\">Перегляд</gui>."
+"Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="
+"\"menuitem\">Перегляд</gui>."
 
 #. (itstool) path: item/p
-#: C/print.page:45
+#: C/print.page:46
 msgid ""
 "A print preview window will open which will show you the definition exactly "
 "as it will be printed."
@@ -701,21 +646,22 @@ msgstr ""
 "програма покаже вам визначення у тому вигляді, у якому його буде надруковано."
 
 #. (itstool) path: item/p
-#: C/print.page:49
-msgid "Use the toolbar to browse pages, adjust zoom level and page width."
+#: C/print.page:50
+#| msgid "Use the toolbar to browse pages, adjust zoom level and page width."
+msgid "Use the header bar to browse pages and adjust the zoom level."
 msgstr ""
-"Скористайтеся панеллю інструментів для навігації сторінками, коригування "
-"масштабу та ширини сторінки."
+"Скористайтеся панеллю заголовка для навігації сторінками і коригування масштабу."
 
 #. (itstool) path: item/p
 #: C/print.page:53
+#| msgid ""
+#| "Click the <gui style=\"button\">Print this document</gui> to print the "
+#| "definition or close the window to end the preview."
 msgid ""
-"Click the <gui style=\"button\">Print this document</gui> to print the "
-"definition or close the window to end the preview."
+"Press <gui style=\"button\">Print</gui> to print the definition or close the "
+"window to end the preview."
 msgstr ""
-"Натисніть кнопку <gui style=\"button\">Надрукувати цей документ</gui>, щоб "
-"надрукувати визначення, або закрийте вікно, щоб завершити попередній "
-"перегляд."
+"Натисніть кнопку <gui style=\"button\">Надрукувати</gui>, щоб надрукувати визначення або закрийте вікно, щоб завершити попередній перегляд."
 
 #. (itstool) path: section/p
 #: C/print.page:63
@@ -737,7 +683,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/print.page:72
-#| msgid "Press <gui style=\"button\">Remove</gui>."
 msgid "Select <gui style=\"tab\">General</gui>."
 msgstr "Виберіть <gui style=\"tab\">Загальне</gui>."
 
@@ -813,17 +758,17 @@ msgstr ""
 "sys>."
 
 #. (itstool) path: info/desc
-#: C/save-definition.page:23
+#: C/save-definition.page:24
 msgid "Save a copy of a definition to a text file."
 msgstr "Збереження копії визначення у текстовому файлі."
 
 #. (itstool) path: page/title
-#: C/save-definition.page:27
+#: C/save-definition.page:28
 msgid "Save a definition"
 msgstr "Збереження визначення"
 
 #. (itstool) path: page/p
-#: C/save-definition.page:29
+#: C/save-definition.page:30
 msgid ""
 "You can save a definition to a text file. This may be useful if you want to "
 "use it outside of <app>Dictionary</app>."
@@ -832,12 +777,12 @@ msgstr ""
 "якщо ви хочете скористатися ним поза <app>Словником</app>."
 
 #. (itstool) path: steps/title
-#: C/save-definition.page:33
+#: C/save-definition.page:34
 msgid "To save a definition:"
 msgstr "Щоб зберегти визначення, виконайте такі дії:"
 
 #. (itstool) path: item/p
-#: C/save-definition.page:35
+#: C/save-definition.page:36
 msgid ""
 "Press the menu button in the top-right corner of the window and select <gui "
 "style=\"menuitem\">Save a Copy…</gui>."
@@ -846,7 +791,7 @@ msgstr ""
 "\"menuitem\">Зберегти копію…</gui>."
 
 #. (itstool) path: item/p
-#: C/save-definition.page:39
+#: C/save-definition.page:40
 msgid ""
 "Choose where you want to save the definition to and a name for the file. You "
 "may want to add a <file>.txt</file> file extension to the end of the file "
@@ -856,7 +801,7 @@ msgstr ""
 "суфікс <file>.txt</file> наприкінці назви файла."
 
 #. (itstool) path: item/p
-#: C/save-definition.page:44
+#: C/save-definition.page:45
 msgid "Press <gui style=\"button\">Save</gui> to save the definition."
 msgstr ""
 "Натисніть кнопку <gui style=\"button\">Зберегти</gui>, щоб зберегти "
@@ -884,19 +829,15 @@ msgstr "<link xref=\"definition\">Виконайте пошук</link> бажа�
 
 #. (itstool) path: item/p
 #: C/similar-words.page:39
-#| msgid ""
-#| "If the sidebar is not already visible, select <guiseq><gui style=\"menu"
-#| "\">View</gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
 msgid ""
 "If the sidebar is not already visible, press the menu button in the top-"
 "right corner of the window and select <guiseq><gui style=\"menuitem\">View</"
 "gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
 msgstr ""
-"Якщо у вікні програми не показано бічну панель, натисніть кнопку меню у"
-" верхньому правому куті вікна програми і виберіть пункт меню "
-"<guiseq><gui style=\"menuitem\">Перегляд</gui> <gui style=\"menuitem\""
-">Подібні "
-"слова</gui></guiseq>."
+"Якщо у вікні програми не показано бічну панель, натисніть кнопку меню у "
+"верхньому правому куті вікна програми і виберіть пункт меню <guiseq><gui "
+"style=\"menuitem\">Перегляд</gui> <gui style=\"menuitem\">Подібні слова</"
+"gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/similar-words.page:44
@@ -938,8 +879,7 @@ msgid "Change the default dictionary source:"
 msgstr "Зміна типового джерела словників:"
 
 #. (itstool) path: item/p
-#: C/sources-default.page:40 C/sources-delete.page:40 C/sources-edit.page:37
-#| msgid "Press <gui style=\"button\">Remove</gui>."
+#: C/sources-default.page:40 C/sources-delete.page:40 C/sources-edit.page:38
 msgid "Select <gui style=\"tab\">Source</gui>."
 msgstr "Виберіть вкладку <gui style=\"tab\">Джерело</gui>."
 
@@ -979,7 +919,6 @@ msgstr "Виберіть джерело словників, яке ви хоче
 
 #. (itstool) path: item/p
 #: C/sources-delete.page:46
-#| msgid "Press <gui style=\"button\">Remove</gui>."
 msgid "Press <gui style=\"button\">-</gui>."
 msgstr "Натисніть кнопку <gui style=\"button\">-</gui>."
 
@@ -993,12 +932,12 @@ msgstr ""
 "бажання вилучити вибране джерело. Після підтвердження джерело буде вилучено."
 
 #. (itstool) path: page/title
-#: C/sources-edit.page:25
+#: C/sources-edit.page:26
 msgid "Edit a dictionary source"
 msgstr "Редагування джерела словників"
 
 #. (itstool) path: page/p
-#: C/sources-edit.page:27
+#: C/sources-edit.page:28
 msgid ""
 "You can customize a <link xref=\"sources\">dictionary source</link> to "
 "update details such as its description or remote address."
@@ -1007,46 +946,46 @@ msgstr ""
 "оновити подробиці, зокрема опис джерела та його адресу."
 
 #. (itstool) path: steps/title
-#: C/sources-edit.page:31
+#: C/sources-edit.page:32
 msgid "To edit a dictionary source:"
 msgstr "Щоб змінити джерело словників, виконайте такі дії:"
 
 #. (itstool) path: item/p
-#: C/sources-edit.page:40
+#: C/sources-edit.page:41
 msgid "Double click on the dictionary source you want to edit."
 msgstr ""
 "Двічі клацніть лівою кнопкою миші на пункті джерела словників, яке ви хочете "
 "змінити."
 
 #. (itstool) path: item/p
-#: C/sources-edit.page:43
+#: C/sources-edit.page:44
 msgid "You can edit the following fields:"
 msgstr "Ви можете редагувати такі поля:"
 
 #. (itstool) path: item/p
-#: C/sources-edit.page:46
+#: C/sources-edit.page:47
 msgid ""
 "<gui>Description</gui> is the name of the source as it will be displayed to "
 "you."
 msgstr "<gui>Опис</gui> — назва джерела, яку буде показано у списку джерел."
 
 #. (itstool) path: item/p
-#: C/sources-edit.page:50
+#: C/sources-edit.page:51
 msgid "<gui>Transport</gui> is the type of server."
 msgstr "<gui>Транспорт</gui> — тип сервера."
 
 #. (itstool) path: item/p
-#: C/sources-edit.page:53
+#: C/sources-edit.page:54
 msgid "<gui>Hostname</gui> is the location of the dictionary source."
 msgstr "<gui>Назва комп'ютера</gui>: розташування джерела словників."
 
 #. (itstool) path: item/p
-#: C/sources-edit.page:58
+#: C/sources-edit.page:59
 msgid "<gui>Port</gui>."
 msgstr "<gui>Порт</gui>."
 
 #. (itstool) path: item/p
-#: C/sources-edit.page:63
+#: C/sources-edit.page:64
 msgid ""
 "View the dictionaries that are available in the dictionary source by "
 "selecting the <gui style=\"tab\">Dictionaries</gui> tab."
@@ -1055,18 +994,18 @@ msgstr ""
 "допомогою вкладки <gui style=\"tab\">Словники</gui>."
 
 #. (itstool) path: item/p
-#: C/sources-edit.page:67
+#: C/sources-edit.page:68
 msgid "Press <gui style=\"button\">Close</gui> to save the settings."
 msgstr ""
 "Натисніть кнопку <gui style=\"button\">Закрити</gui>, щоб зберегти параметри."
 
 #. (itstool) path: info/desc
-#: C/sources.page:25
+#: C/sources.page:26
 msgid "Manage various dictionary sources."
 msgstr "Керування різноманітними джерелами словників."
 
 #. (itstool) path: page/p
-#: C/sources.page:31
+#: C/sources.page:32
 msgid ""
 "<app>Dictionary</app> uses <em>dictionary sources</em> to look up words that "
 "you search for. Dictionary sources are collections of one or more dictionary "
@@ -1079,7 +1018,7 @@ msgstr ""
 "їх і локально на вашому комп'ютері."
 
 #. (itstool) path: section/title
-#: C/sources.page:37
+#: C/sources.page:38
 msgid "Manage your dictionary sources"
 msgstr "Керування вашими джерелами словників"
 
@@ -1104,14 +1043,29 @@ msgstr "Тимчасова зміна джерела словників:"
 
 #. (itstool) path: item/p
 #: C/sources-select.page:36
-msgid "Press the button next to the search field."
-msgstr "Натисніть кнопку, яку розташовано поряд із полем для пошуку."
+#| msgid ""
+#| "Press the menu button in the top-right corner of the window and select "
+#| "<guiseq><gui style=\"menuitem\">View</gui> <gui style=\"menuitem"
+#| "\">Available Databases</gui></guiseq>. A sidebar listing the available "
+#| "dictionaries for your currently selected dictionary source will open."
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">View</gui><gui style=\"menuitem\">Dictionary "
+"Sources</gui></guiseq>. A sidebar listing the available dictionary sources "
+"will open."
+msgstr ""
+"Натисніть кнопку меню у верхньому правому куті вікна програми і виберіть "
+"пункт меню <guiseq><gui style=\"menuitem\">Перегляд</gui> <gui style="
+"\"menuitem\">Джерела словників</gui></guiseq>. У відповідь буде показано "
+"бічну панель зі списком доступних джерел словників."
 
 #. (itstool) path: item/p
-#: C/sources-select.page:39
-#| msgid "Select the dictionary source that you want to delete."
-msgid "Select the dictionary source that you want to use."
-msgstr "Виберіть джерело словників, яким ви хочете скористатися."
+#: C/sources-select.page:42
+#| msgid "Select the dictionary source that you want to set as the default."
+msgid ""
+"Select the dictionary source that you want to use, either by double-clicking "
+"it or pressing <key>Enter</key>."
+msgstr "Виберіть джерело словників, яким ви хочете користуватися подвійним клацанням на відповідному пункті або натисканням клавіші <key>Enter</key>."
 
 #. (itstool) path: info/desc
 #: C/text-copy.page:25
@@ -1149,9 +1103,9 @@ msgid ""
 "Right-click and select <gui style=\"menuitem\">Copy</gui>, or use the "
 "<keyseq><key>Ctrl</key><key>V</key></keyseq> keyboard shortcut."
 msgstr ""
-"Клацніть правою кнопкою миші і виберіть у контекстному меню пункт <gui"
-" style=\"menuitem\">Копіювати</gui> або скористайтеся клавіатурним"
-" скороченням <keyseq><key>Ctrl</key><key>V</key></keyseq>."
+"Клацніть правою кнопкою миші і виберіть у контекстному меню пункт <gui style="
+"\"menuitem\">Копіювати</gui> або скористайтеся клавіатурним скороченням "
+"<keyseq><key>Ctrl</key><key>V</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/text-copy.page:44
@@ -1163,6 +1117,43 @@ msgstr ""
 "Вставте текст до вікна іншої програми. Зазвичай, це можна зробити "
 "натисканням комбінації клавіш <keyseq><key>Ctrl</key><key>V</key></keyseq> "
 "або за допомогою одного із пунктів меню програми."
+
+#~ msgid "<key>/</key> or <keyseq><key>Ctrl</key><key>F</key></keyseq>"
+#~ msgstr "<key>/</key> або <keyseq><key>Ctrl</key><key>F</key></keyseq>"
+
+#~ msgid "Find next"
+#~ msgstr "Знайти наступне"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+
+#~ msgid "Find previous"
+#~ msgstr "Знайти попереднє"
+
+#~ msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+#~ msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+
+#~ msgid "Previous definition"
+#~ msgstr "Попереднє визначення"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+
+#~ msgid "Next definition"
+#~ msgstr "Наступне визначення"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+
+#~ msgid "Available databases"
+#~ msgstr "Доступні бази даних"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+
+#~| msgid "Select the dictionary source that you want to delete."
+#~ msgid "Select the dictionary source that you want to use."
+#~ msgstr "Виберіть джерело словників, яким ви хочете скористатися."
 
 #~ msgid "Click twice on the dictionary that you want to use."
 #~ msgstr "Двічі клацніть на пункті словника, яким ви хочете скористатися."
