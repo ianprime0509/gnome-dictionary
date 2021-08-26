@@ -22,7 +22,7 @@ gnome.yelp('gnome-dictionary',
     'text-copy.page',
   ],
   media: [
-    'figures/gnome-dictionary-icon.png',
     'figures/gnome-dictionary-3-26.png',
+    'figures/org.gnome.Dictionary.svg',
   ],
 )
