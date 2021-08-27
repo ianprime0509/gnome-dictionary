@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils dictionary manual\n"
-"POT-Creation-Date: 2021-08-26 12:39+0000\n"
-"PO-Revision-Date: 2021-08-26 19:58+0300\n"
+"POT-Creation-Date: 2021-08-27 15:14+0000\n"
+"PO-Revision-Date: 2021-08-28 00:08+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "Language: uk\n"
@@ -234,14 +234,12 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/index.page:7
-#| msgid "Dictionary"
 msgctxt "link:trail"
 msgid "Dictionary"
 msgstr "Словник"
 
 #. (itstool) path: info/title
 #: C/index.page:8
-#| msgid "Dictionary"
 msgctxt "link"
 msgid "Dictionary"
 msgstr "Словник"
@@ -1094,13 +1092,16 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/text-copy.page:40
+#| msgid ""
+#| "Right-click and select <gui style=\"menuitem\">Copy</gui>, or use the "
+#| "<keyseq><key>Ctrl</key><key>V</key></keyseq> keyboard shortcut."
 msgid ""
 "Right-click and select <gui style=\"menuitem\">Copy</gui>, or use the "
-"<keyseq><key>Ctrl</key><key>V</key></keyseq> keyboard shortcut."
+"<keyseq><key>Ctrl</key><key>C</key></keyseq> keyboard shortcut."
 msgstr ""
 "Клацніть правою кнопкою миші і виберіть у контекстному меню пункт <gui style="
 "\"menuitem\">Копіювати</gui> або скористайтеся клавіатурним скороченням "
-"<keyseq><key>Ctrl</key><key>V</key></keyseq>."
+"<keyseq><key>Ctrl</key><key>C</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/text-copy.page:44
