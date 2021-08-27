@@ -38,7 +38,7 @@
     </item>
     <item>
       <p>Right-click and select <gui style="menuitem">Copy</gui>, or use the
-      <keyseq><key>Ctrl</key><key>V</key></keyseq> keyboard shortcut.</p>
+      <keyseq><key>Ctrl</key><key>C</key></keyseq> keyboard shortcut.</p>
     </item>
     <item>
       <p>Paste the text into another application. This can usually be done
