@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils gnome-2-28\n"
-"POT-Creation-Date: 2021-08-26 12:39+0000\n"
+"POT-Creation-Date: 2021-08-27 15:19+0000\n"
 "PO-Revision-Date: 2021-08-27 15:35+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -115,10 +115,10 @@ msgid ""
 msgstr ""
 "<app>Slovník</app> bude hledat ve vámi vybraném zdroji slovníků a zobrazí "
 "výsledek z prvního slovníku v tomto zdroji. Pro zobrazení výsledků z jiného "
-"slovníku v tomtéž zdroji zmáčkněte tlačítko nabídky v pravém horním rohu okna "
-"a vyberte <link xref=\"similar-words\"><guiseq><gui style=\"menuitem\">"
-"Zobrazit</gui> <gui style=\"menuitem\">Podobná slova</gui></guiseq></link>. "
-"Objeví se postranní panel, ve kterém jsou zobrazeny všechny výsledky."
+"slovníku v tomtéž zdroji zmáčkněte tlačítko nabídky v pravém horním rohu "
+"okna a vyberte <link xref=\"similar-words\"><guiseq><gui style=\"menuitem"
+"\">Zobrazit</gui> <gui style=\"menuitem\">Podobná slova</gui></guiseq></"
+"link>. Objeví se postranní panel, ve kterém jsou zobrazeny všechny výsledky."
 
 #. (itstool) path: page/title
 #: C/dictionary-select.page:27
@@ -227,8 +227,9 @@ msgid ""
 "you are on the last result and press the Down button."
 msgstr ""
 "Mačkáním tlačítek se šipkami nahoru a dolů můžete přecházet mezi výsledky. "
-"Při hledání se nepřechází přes okraj, tzn. že když jste na posledním výsledku "
-"a kliknete na tlačítko se šipkou dolů nepřejdete na začátek na první výsledek."
+"Při hledání se nepřechází přes okraj, tzn. že když jste na posledním "
+"výsledku a kliknete na tlačítko se šipkou dolů nepřejdete na začátek na "
+"první výsledek."
 
 #. (itstool) path: info/title
 #: C/index.page:7
@@ -817,8 +818,8 @@ msgid ""
 "gui> <gui style=\"menuitem\">Similar Words</gui></guiseq>."
 msgstr ""
 "V případě, že není zobrazen postranní panel, zmáčkněte tlačítko nabídky v "
-"pravém horním rohu okna a vyberte <guiseq><gui style=\"menuitem\">Zobrazit"
-"</gui> <gui style=\"menuitem\">Podobná slova</gui></guiseq>."
+"pravém horním rohu okna a vyberte <guiseq><gui style=\"menuitem\">Zobrazit</"
+"gui> <gui style=\"menuitem\">Podobná slova</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/similar-words.page:44
@@ -1029,8 +1030,8 @@ msgid ""
 "will open."
 msgstr ""
 "Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
-"style=\"menuitem\">Zobrazit</gui> <gui style=\"menuitem\">Zdroje slovníků"
-"</gui></guiseq>. V postranní panelu se vypíše seznam dostupných zdrojů "
+"style=\"menuitem\">Zobrazit</gui> <gui style=\"menuitem\">Zdroje slovníků</"
+"gui></guiseq>. V postranní panelu se vypíše seznam dostupných zdrojů "
 "slovníků."
 
 #. (itstool) path: item/p
@@ -1075,11 +1076,11 @@ msgstr "Vyberte ve <app>Slovníku</app> text, který chcete zkopírovat."
 #: C/text-copy.page:40
 msgid ""
 "Right-click and select <gui style=\"menuitem\">Copy</gui>, or use the "
-"<keyseq><key>Ctrl</key><key>V</key></keyseq> keyboard shortcut."
+"<keyseq><key>Ctrl</key><key>C</key></keyseq> keyboard shortcut."
 msgstr ""
-"Klikněte na něj pravým tlačítkem a vyberte <gui style=\"menuitem\">Kopírovat"
-"</gui> nebo použijte klávesovou zkratku <keyseq><key>Ctrl</key><key>C</key>"
-"</keyseq>."
+"Klikněte na něj pravým tlačítkem a vyberte <gui style=\"menuitem"
+"\">Kopírovat</gui> nebo použijte klávesovou zkratku <keyseq><key>Ctrl</"
+"key><key>C</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/text-copy.page:44
@@ -1090,4 +1091,3 @@ msgid ""
 msgstr ""
 "Vložte text do jiné aplikace. Obvykle se to dělá pomocí klávesové zkratky "
 "<keyseq><key>Ctrl</key> <key>V</key></keyseq> nebo příslušné nabídky."
-
