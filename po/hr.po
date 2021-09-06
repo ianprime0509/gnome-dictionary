@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils 0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-dictionary/"
 "issues\n"
-"POT-Creation-Date: 2019-02-28 19:45+0000\n"
-"PO-Revision-Date: 2019-03-26 17:32+0100\n"
+"POT-Creation-Date: 2020-12-10 15:51+0000\n"
+"PO-Revision-Date: 2021-09-06 12:06+0200\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -17,27 +17,18 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Launchpad-Export-Date: 2008-05-27 22:39+0000\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.3\n"
 
-#. Translators: Do not translate the Name key
-#: data/default.desktop.in:4
-msgid "Default"
-msgstr "Default"
-
-#: data/default.desktop.in:5
-msgid "Default Dictionary Server"
-msgstr "Zadani poslužitelj rječnika"
-
-#: data/org.gnome.Dictionary.appdata.xml.in:6
+#: data/appdata/org.gnome.Dictionary.appdata.xml.in.in:6
 msgid "GNOME Dictionary"
 msgstr "GNOME rječnik"
 
-#: data/org.gnome.Dictionary.appdata.xml.in:7
-#: data/org.gnome.Dictionary.desktop.in:4
+#: data/appdata/org.gnome.Dictionary.appdata.xml.in.in:7
+#: data/org.gnome.Dictionary.desktop.in.in:4
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Provjerite značenja i pravopis pomoću internetskog rječnika"
 
-#: data/org.gnome.Dictionary.appdata.xml.in:9
+#: data/appdata/org.gnome.Dictionary.appdata.xml.in.in:9
 msgid ""
 "GNOME Dictionary is a simple dictionary application that looks up "
 "definitions of words online. Though it looks up English definitions by "
@@ -49,19 +40,23 @@ msgstr ""
 "možete prebaciti na hrvatski ili dodati neki drugi mrežni rječnik pomoću "
 "DICT protokola kako bi odgovarao vašim potrebama."
 
-#: data/org.gnome.Dictionary.desktop.in:3 src/gdict-about.c:60
-#: src/gdict-window.c:498 src/gdict-window.c:1500
+#: data/appdata/org.gnome.Dictionary.appdata.xml.in.in:34
+msgid "The GNOME Project"
+msgstr "GNOME projekt"
+
+#: data/default.desktop.in:5
+msgid "Default Dictionary Server"
+msgstr "Zadani poslužitelj rječnika"
+
+#: data/org.gnome.Dictionary.desktop.in.in:3 src/gdict-about.c:62
+#: src/gdict-app.c:369 src/gdict-window.c:495 src/gdict-window.c:1511
 msgid "Dictionary"
 msgstr "Rječnik"
 
-#: data/org.gnome.Dictionary.desktop.in:5
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Dictionary.desktop.in.in:6
 msgid "word;synonym;definition;spelling;"
 msgstr "riječ;sinonim;značenje;pravopis;"
-
-#. Translators: Do not translate the Icon key
-#: data/org.gnome.Dictionary.desktop.in:10
-msgid "accessories-dictionary"
-msgstr "accessories-dictionary"
 
 #: data/org.gnome.dictionary.gschema.xml:6
 msgid "The default database to use"
@@ -109,15 +104,6 @@ msgstr ""
 "Naziv izvora rječnika koji će se koristiti za nabavljanje značenja riječi."
 
 #. Translators: Do not translate the Name key
-#: data/spanish.desktop.in:4
-msgid "spanish"
-msgstr "spanish"
-
-#: data/spanish.desktop.in:5
-msgid "Spanish Dictionaries"
-msgstr "Španjolski rječnici"
-
-#. Translators: Do not translate the Name key
 #: data/thai.desktop.in:4
 msgid "Thai"
 msgstr "Thai"
@@ -126,226 +112,19 @@ msgstr "Thai"
 msgid "Longdo Thai-English Dictionaries"
 msgstr "Longdo Tajlandsko-engleski rječnik"
 
-#: libgdict/gdict-client-context.c:775
-#, c-format
-msgid "No connection to the dictionary server at “%s:%d”"
-msgstr "Nema povezivanja s poslužiteljem rječnika na \"%s:%d\""
-
-#: libgdict/gdict-client-context.c:1058
-#, c-format
-msgid "Lookup failed for hostname “%s”: no suitable resources found"
-msgstr ""
-"Pretraga neuspjela za računalo \"%s\": nisu pronađeni prikladni resursi"
-
-#: libgdict/gdict-client-context.c:1089
-#, c-format
-msgid "Lookup failed for host “%s”: %s"
-msgstr "Pretraga neuspjela za računalo \"%s\": %s"
-
-#: libgdict/gdict-client-context.c:1123
-#, c-format
-msgid "Lookup failed for host “%s”: host not found"
-msgstr "Pretraga neuspjela za računalo \"%s\": računalo nije pronađeno"
-
-#: libgdict/gdict-client-context.c:1175
-#, c-format
-msgid ""
-"Unable to connect to the dictionary server at “%s:%d”. The server replied "
-"with code %d (server down)"
-msgstr ""
-"Neuspješno povezivanje s poslužiteljem rječnika na \"%s:%d\". Poslužitelj je "
-"vratio kôd %d (poslužitelj nedostupan)"
-
-#: libgdict/gdict-client-context.c:1194
-#, c-format
-msgid ""
-"Unable to parse the dictionary server reply\n"
-": “%s”"
-msgstr ""
-"Nemoguća obrada odgovora poslužitelja rječnika\n"
-": “%s”"
-
-#: libgdict/gdict-client-context.c:1223
-#, c-format
-msgid "No definitions found for “%s”"
-msgstr "Nema pronađenih značenja “%s”"
-
-#: libgdict/gdict-client-context.c:1238
-#, c-format
-msgid "Invalid database “%s”"
-msgstr "Neispravna baza podataka “%s”"
-
-#: libgdict/gdict-client-context.c:1253
-#, c-format
-msgid "Invalid strategy “%s”"
-msgstr "Neispravna strategija “%s”"
-
-#: libgdict/gdict-client-context.c:1268
-#, c-format
-msgid "Bad command “%s”"
-msgstr "Loša naredba “%s”"
-
-#: libgdict/gdict-client-context.c:1283
-#, c-format
-msgid "Bad parameters for command “%s”"
-msgstr "Loši parametri za naredbu “%s”"
-
-#: libgdict/gdict-client-context.c:1298
-#, c-format
-msgid "No databases found on dictionary server at “%s”"
-msgstr "Nema pronađenih baza podataka na poslužitelju rječnika na “%s”"
-
-#: libgdict/gdict-client-context.c:1313
-#, c-format
-msgid "No strategies found on dictionary server at “%s”"
-msgstr "Nema pronađenih strategija na poslužitelju rječnika na \"%s\""
-
-#: libgdict/gdict-client-context.c:1745
-#, c-format
-msgid "Connection failed to the dictionary server at %s:%d"
-msgstr "Neuspješno povezivanje s poslužiteljem rječnika na %s:%d"
-
-#: libgdict/gdict-client-context.c:1784
-#, c-format
-msgid ""
-"Error while reading reply from server:\n"
-"%s"
-msgstr ""
-"Greška pri čitanju odgovora poslužitelja:\n"
-"%s"
-
-#: libgdict/gdict-client-context.c:1857
-#, c-format
-msgid "Connection timeout for the dictionary server at “%s:%d”"
-msgstr "Vrijeme čekanja poslužitelja rječnika na “%s:%d”"
-
-#: libgdict/gdict-client-context.c:1891
-#, c-format
-msgid "No hostname defined for the dictionary server"
-msgstr "Naziv računala za poslužitelj rječnika nije određen"
-
-#: libgdict/gdict-client-context.c:1927 libgdict/gdict-client-context.c:1942
-#, c-format
-msgid "Unable to create socket"
-msgstr "Nemoguće stvaranje priključnice"
-
-#: libgdict/gdict-client-context.c:1968
-#, c-format
-msgid "Unable to set the channel as non-blocking: %s"
-msgstr "Nemoguće postavljanje kanala kao neblokirajućeg: %s"
-
-#: libgdict/gdict-client-context.c:1983
-#, c-format
-msgid "Unable to connect to the dictionary server at “%s:%d”"
-msgstr "Neuspješno povezivanje s poslužiteljem rječnika na “%s:%d”"
-
-#: libgdict/gdict-database-chooser.c:376
-msgid "Reload the list of available databases"
-msgstr "Ponovno učitaj popis dostupnih baza podataka"
-
-#: libgdict/gdict-database-chooser.c:388
-msgid "Clear the list of available databases"
-msgstr "Obriši popis dostupnih baza podataka"
-
-#: libgdict/gdict-database-chooser.c:842 libgdict/gdict-speller.c:767
-#: libgdict/gdict-strategy-chooser.c:775
-msgid "Error while matching"
-msgstr "Greška pri uspoređivanju"
-
-#: libgdict/gdict-defbox.c:2390
-msgid "Error while looking up definition"
-msgstr "Greška pri pretraživanju značenja"
-
-#: libgdict/gdict-defbox.c:2432 libgdict/gdict-speller.c:725
-msgid "Another search is in progress"
-msgstr "Druga pretraga je već u tijeku"
-
-#: libgdict/gdict-defbox.c:2433 libgdict/gdict-speller.c:726
-msgid "Please wait until the current search ends."
-msgstr "Pričekajte da trenutna pretraga završi."
-
-#: libgdict/gdict-defbox.c:2472
-msgid "Error while retrieving the definition"
-msgstr "Greška pri preuzimanju značenja"
-
-#: libgdict/gdict-source.c:434
-#, c-format
-msgid "Invalid transport type “%d”"
-msgstr "Neispravna vrsta prijenosa \"%d\""
-
-#: libgdict/gdict-source.c:462
-#, c-format
-msgid "No “%s” group found inside the dictionary source definition"
-msgstr "\"%s\" grupa nije pronađena unutar značenja izvora rječnika"
-
-#: libgdict/gdict-source.c:478 libgdict/gdict-source.c:511
-#: libgdict/gdict-source.c:535 libgdict/gdict-source.c:560
-#, c-format
-msgid "Unable to get the “%s” key inside the dictionary source definition: %s"
-msgstr "Nemoguće dobivanje \"%s\" ključa unutar značenja izvora rječnika: %s"
-
-#: libgdict/gdict-source.c:585
-#, c-format
-msgid ""
-"Unable to get the “%s” key inside the dictionary source definition file: %s"
-msgstr ""
-"Nemoguće dobivanje \"%s\" ključa unutar datoteke značenja izvora rječnika: %s"
-
-#: libgdict/gdict-source.c:779
-#, c-format
-msgid "Dictionary source does not have name"
-msgstr "Izvor rječnika nema naziv"
-
-#: libgdict/gdict-source.c:788
-#, c-format
-msgid "Dictionary source “%s” has invalid transport “%s”"
-msgstr "Izvor rječnika \"%s\" ima neispravan prijenos \"%s\""
-
-#: libgdict/gdict-source-chooser.c:280
-msgid "Reload the list of available sources"
-msgstr "Ponovno učitaj popis dostupnih izvora"
-
-#: libgdict/gdict-speller.c:341
-msgid "Clear the list of similar words"
-msgstr "Obriši popis sličnih riječi"
-
-#: libgdict/gdict-strategy-chooser.c:350
-msgid "Reload the list of available strategies"
-msgstr "Ponovno učitaj popis dostupnih strategija"
-
-#: libgdict/gdict-strategy-chooser.c:361
-msgid "Clear the list of available strategies"
-msgstr "Obriši popis dostupnih strategija"
-
-#: libgdict/gdict-utils.c:95
-msgid "GDict debugging flags to set"
-msgstr "GDict postavljanje oznaka otklanjanja grešaka"
-
-#: libgdict/gdict-utils.c:95 libgdict/gdict-utils.c:97
-msgid "FLAGS"
-msgstr "OZNAKE"
-
-#: libgdict/gdict-utils.c:97
-msgid "GDict debugging flags to unset"
-msgstr "GDict uklanjanje oznaka otklanjanja grešaka"
-
-#: libgdict/gdict-utils.c:152
-msgid "GDict Options"
-msgstr "GDict mogućnosti"
-
-#: libgdict/gdict-utils.c:153
-msgid "Show GDict Options"
-msgstr "Prikaži GDict mogućnosti"
-
-#: src/gdict-about.c:53
+#: src/gdict-about.c:52
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  gogo https://launchpad.net/~trebelnik-stefina"
 
-#: src/gdict-about.c:55
+#: src/gdict-about.c:54
 msgid "Look up words in dictionaries"
 msgstr "Pretraži riječi u rječnicima"
+
+#: src/gdict-about.c:61
+msgid "Dictionary (development build)"
+msgstr "Rječnik (razvojna izgradanja)"
 
 #: src/gdict-app-menus.ui:5
 msgid "_New Window"
@@ -411,87 +190,348 @@ msgstr "_Zadnje značenje"
 msgid "Pr_eferences"
 msgstr "Os_obitosti"
 
+#: src/gdict-app-menus.ui:97
+msgid "_Keyboard Shortcuts"
+msgstr "_Prečaci tipkovnice"
+
 #. The help button is always visible
-#: src/gdict-app-menus.ui:97 src/gdict-source-dialog.c:668
+#: src/gdict-app-menus.ui:101 src/gdict-source-dialog.c:666
 msgid "_Help"
 msgstr "_Pomoć"
 
-#: src/gdict-app-menus.ui:102
+#: src/gdict-app-menus.ui:106
 msgid "_About Dictionary"
 msgstr "_O Rječniku"
 
-#: src/gdict-app.c:47 src/gdict-app.c:76
+#: src/gdict-app.c:45 src/gdict-app.c:74
 msgid "Words to look up"
 msgstr "Riječi za pretraživanje"
 
-#: src/gdict-app.c:47 src/gdict-app.c:53
+#: src/gdict-app.c:45 src/gdict-app.c:51
 msgid "WORD"
 msgstr "RIJEČ"
 
-#: src/gdict-app.c:53
+#: src/gdict-app.c:51
 msgid "Words to match"
 msgstr "Riječi za podudaranje"
 
-#: src/gdict-app.c:59
+#: src/gdict-app.c:57
 msgid "Dictionary source to use"
 msgstr "Izvor rječnika za korištenje"
 
-#: src/gdict-app.c:59 src/gdict-app.c:65 src/gdict-app.c:71
+#: src/gdict-app.c:57 src/gdict-app.c:63 src/gdict-app.c:69
 msgid "NAME"
 msgstr "NAZIV"
 
-#: src/gdict-app.c:65
+#: src/gdict-app.c:63
 msgid "Database to use"
 msgstr "Baza podataka za korištenje"
 
-#: src/gdict-app.c:71
+#: src/gdict-app.c:69
 msgid "Strategy to use"
 msgstr "Strategija za korištenje"
 
-#: src/gdict-app.c:76
+#: src/gdict-app.c:74
 msgid "WORDS"
 msgstr "RIJEČI"
 
-#: src/gdict-app.c:108
+#: src/gdict-app.c:106
 msgid "Dictionary Preferences"
 msgstr "Osobitosti rječnika"
 
-#: src/gdict-app.c:139 src/gdict-source-dialog.c:465
+#: src/gdict-app.c:137 src/gdict-source-dialog.c:463
 msgid "There was an error while displaying help"
 msgstr "Dogodila se greška pri prikazivanju pomoći"
 
-#: src/gdict-pref-dialog.c:262
+#: src/gdict-client-context.c:773
+#, c-format
+msgid "No connection to the dictionary server at “%s:%d”"
+msgstr "Nema povezivanja s poslužiteljem rječnika na \"%s:%d\""
+
+#: src/gdict-client-context.c:1056
+#, c-format
+msgid "Lookup failed for hostname “%s”: no suitable resources found"
+msgstr ""
+"Pretraga neuspjela za računalo \"%s\": nisu pronađeni prikladni resursi"
+
+#: src/gdict-client-context.c:1087
+#, c-format
+msgid "Lookup failed for host “%s”: %s"
+msgstr "Pretraga neuspjela za računalo \"%s\": %s"
+
+#: src/gdict-client-context.c:1121
+#, c-format
+msgid "Lookup failed for host “%s”: host not found"
+msgstr "Pretraga neuspjela za računalo \"%s\": računalo nije pronađeno"
+
+#: src/gdict-client-context.c:1173
+#, c-format
+msgid ""
+"Unable to connect to the dictionary server at “%s:%d”. The server replied "
+"with code %d (server down)"
+msgstr ""
+"Neuspješno povezivanje s poslužiteljem rječnika na \"%s:%d\". Poslužitelj je "
+"vratio kôd %d (poslužitelj nedostupan)"
+
+#: src/gdict-client-context.c:1192
+#, c-format
+msgid ""
+"Unable to parse the dictionary server reply\n"
+": “%s”"
+msgstr ""
+"Nemoguća obrada odgovora poslužitelja rječnika\n"
+": “%s”"
+
+#: src/gdict-client-context.c:1221
+#, c-format
+msgid "No definitions found for “%s”"
+msgstr "Nema pronađenih značenja “%s”"
+
+#: src/gdict-client-context.c:1236
+#, c-format
+msgid "Invalid database “%s”"
+msgstr "Neispravna baza podataka “%s”"
+
+#: src/gdict-client-context.c:1251
+#, c-format
+msgid "Invalid strategy “%s”"
+msgstr "Neispravna strategija “%s”"
+
+#: src/gdict-client-context.c:1266
+#, c-format
+msgid "Bad command “%s”"
+msgstr "Loša naredba “%s”"
+
+#: src/gdict-client-context.c:1281
+#, c-format
+msgid "Bad parameters for command “%s”"
+msgstr "Loši parametri za naredbu “%s”"
+
+#: src/gdict-client-context.c:1296
+#, c-format
+msgid "No databases found on dictionary server at “%s”"
+msgstr "Nema pronađenih baza podataka na poslužitelju rječnika na “%s”"
+
+#: src/gdict-client-context.c:1311
+#, c-format
+msgid "No strategies found on dictionary server at “%s”"
+msgstr "Nema pronađenih strategija na poslužitelju rječnika na \"%s\""
+
+#: src/gdict-client-context.c:1743
+#, c-format
+msgid "Connection failed to the dictionary server at %s:%d"
+msgstr "Neuspješno povezivanje s poslužiteljem rječnika na %s:%d"
+
+#: src/gdict-client-context.c:1782
+#, c-format
+msgid ""
+"Error while reading reply from server:\n"
+"%s"
+msgstr ""
+"Greška pri čitanju odgovora poslužitelja:\n"
+"%s"
+
+#: src/gdict-client-context.c:1855
+#, c-format
+msgid "Connection timeout for the dictionary server at “%s:%d”"
+msgstr "Vrijeme čekanja poslužitelja rječnika na “%s:%d”"
+
+#: src/gdict-client-context.c:1889
+#, c-format
+msgid "No hostname defined for the dictionary server"
+msgstr "Naziv računala za poslužitelj rječnika nije određen"
+
+#: src/gdict-client-context.c:1925 src/gdict-client-context.c:1940
+#, c-format
+msgid "Unable to create socket"
+msgstr "Nemoguće stvaranje priključnice"
+
+#: src/gdict-client-context.c:1966
+#, c-format
+msgid "Unable to set the channel as non-blocking: %s"
+msgstr "Nemoguće postavljanje kanala kao neblokirajućeg: %s"
+
+#: src/gdict-client-context.c:1981
+#, c-format
+msgid "Unable to connect to the dictionary server at “%s:%d”"
+msgstr "Neuspješno povezivanje s poslužiteljem rječnika na “%s:%d”"
+
+#: src/gdict-database-chooser.c:372
+msgid "Reload the list of available databases"
+msgstr "Ponovno učitaj popis dostupnih baza podataka"
+
+#: src/gdict-database-chooser.c:384
+msgid "Clear the list of available databases"
+msgstr "Obriši popis dostupnih baza podataka"
+
+#: src/gdict-database-chooser.c:836 src/gdict-speller.c:766
+#: src/gdict-strategy-chooser.c:773
+msgid "Error while matching"
+msgstr "Greška pri uspoređivanju"
+
+#: src/gdict-defbox.c:2388
+msgid "Error while looking up definition"
+msgstr "Greška pri pretraživanju značenja"
+
+#: src/gdict-defbox.c:2430 src/gdict-speller.c:724
+msgid "Another search is in progress"
+msgstr "Druga pretraga je već u tijeku"
+
+#: src/gdict-defbox.c:2431 src/gdict-speller.c:725
+msgid "Please wait until the current search ends."
+msgstr "Pričekajte da trenutna pretraga završi."
+
+#: src/gdict-defbox.c:2470
+msgid "Error while retrieving the definition"
+msgstr "Greška pri preuzimanju značenja"
+
+#: src/gdict-help-overlay.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Općenito"
+
+#: src/gdict-help-overlay.ui:18
+msgctxt "shortcut window"
+msgid "Show help"
+msgstr "Prikaži pomoć"
+
+#: src/gdict-help-overlay.ui:24
+msgctxt "shortcut window"
+msgid "Show keyboard shortcuts"
+msgstr "Prikaži prečace tipkovnice"
+
+#: src/gdict-help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "Open a new window"
+msgstr "Otvori novi prozor"
+
+#: src/gdict-help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Close current window"
+msgstr "Zatvori trenutni prozor"
+
+#: src/gdict-help-overlay.ui:45
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Zatvori"
+
+#: src/gdict-help-overlay.ui:53
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Osobitosti"
+
+#: src/gdict-help-overlay.ui:60
+msgctxt "shortcut window"
+msgid "View sidebar"
+msgstr "Prikaži bočnu traku"
+
+#: src/gdict-help-overlay.ui:68
+msgctxt "shortcut window"
+msgid "Dictionary definitions"
+msgstr "Značenja rječnika"
+
+#: src/gdict-help-overlay.ui:73
+msgctxt "shortcut window"
+msgid "Similar words"
+msgstr "Slične riječi"
+
+#: src/gdict-help-overlay.ui:80
+msgctxt "shortcut window"
+msgid "Dictionary sources"
+msgstr "Izvori rječnika"
+
+#: src/gdict-help-overlay.ui:87
+msgctxt "shortcut window"
+msgid "Available strategies"
+msgstr "Dostupne strategije"
+
+#: src/gdict-help-overlay.ui:95
+msgctxt "shortcut window"
+msgid "Navigate within a definition"
+msgstr "Kretanje unutar značenja"
+
+#: src/gdict-help-overlay.ui:100
+msgctxt "shortcut window"
+msgid "Previous definition"
+msgstr "Prijašnje značenje"
+
+#: src/gdict-help-overlay.ui:107
+msgctxt "shortcut window"
+msgid "Next definition"
+msgstr "Sljedeće značenje"
+
+#: src/gdict-help-overlay.ui:114
+msgctxt "shortcut window"
+msgid "First definition"
+msgstr "Prvo značenje"
+
+#: src/gdict-help-overlay.ui:121
+msgctxt "shortcut window"
+msgid "Last definition"
+msgstr "Zadnje značenje"
+
+#: src/gdict-help-overlay.ui:129
+msgctxt "shortcut window"
+msgid "Others"
+msgstr "Ostali"
+
+#: src/gdict-help-overlay.ui:134
+msgctxt "shortcut window"
+msgid "Search within a definition"
+msgstr "Pretraga unutar značenja"
+
+#: src/gdict-help-overlay.ui:141
+msgctxt "shortcut window"
+msgid "Find in text"
+msgstr "Potraži u tekstu"
+
+#: src/gdict-help-overlay.ui:148
+msgctxt "shortcut window"
+msgid "Save as copy"
+msgstr "Spremi kao kopiju"
+
+#: src/gdict-help-overlay.ui:155
+msgctxt "shortcut window"
+msgid "Print preview"
+msgstr "Pregled ispisa"
+
+#: src/gdict-help-overlay.ui:162
+msgctxt "shortcut window"
+msgid "Print"
+msgstr "Ispis"
+
+#: src/gdict-pref-dialog.c:260
 msgid "View Dictionary Source"
 msgstr "Pogledaj izvor rječnika"
 
-#: src/gdict-pref-dialog.c:328
+#: src/gdict-pref-dialog.c:326
 msgid "Add Dictionary Source"
 msgstr "Dodaj izvor rječnika"
 
-#: src/gdict-pref-dialog.c:372
+#: src/gdict-pref-dialog.c:370
 #, c-format
 msgid "Remove “%s”?"
 msgstr "Ukloni \"%s\"?"
 
-#: src/gdict-pref-dialog.c:374
+#: src/gdict-pref-dialog.c:372
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Ovo će trajno ukloniti izvor rječnika s popisa."
 
-#: src/gdict-pref-dialog.c:377 src/gdict-source-dialog.c:577
-#: src/gdict-window.c:822
+#: src/gdict-pref-dialog.c:375 src/gdict-source-dialog.c:575
+#: src/gdict-window.c:819
 msgid "_Cancel"
 msgstr "_Odustani"
 
-#: src/gdict-pref-dialog.c:378
+#: src/gdict-pref-dialog.c:376
 msgid "_Remove"
 msgstr "_Ukloni"
 
-#: src/gdict-pref-dialog.c:396
+#: src/gdict-pref-dialog.c:394
 #, c-format
 msgid "Unable to remove source “%s”"
 msgstr "Nemoguće uklanjanje izvora “%s”"
 
-#: src/gdict-pref-dialog.c:443
+#: src/gdict-pref-dialog.c:441
 msgid "Edit Dictionary Source"
 msgstr "Uredi izvor rječnika"
 
@@ -531,29 +571,33 @@ msgstr "Postavi slova za ispis značenja"
 msgid "Print"
 msgstr "Ispis"
 
-#: src/gdict-print.c:237 src/gdict-print.c:301
+#: src/gdict-print.c:235 src/gdict-print.c:299
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Nemoguć prikaz pregleda: %s"
 
-#: src/gdict-source-dialog.c:316 src/gdict-source-dialog.c:410
+#: src/gdict-source-chooser.c:278
+msgid "Reload the list of available sources"
+msgstr "Ponovno učitaj popis dostupnih izvora"
+
+#: src/gdict-source-dialog.c:314 src/gdict-source-dialog.c:408
 msgid "Unable to create a source file"
 msgstr "Nemoguće stvaranje datoteke izvora"
 
-#: src/gdict-source-dialog.c:338 src/gdict-source-dialog.c:430
+#: src/gdict-source-dialog.c:336 src/gdict-source-dialog.c:428
 msgid "Unable to save source file"
 msgstr "Nemoguće spremanje datoteke izvora"
 
 #. we just allow closing the dialog
-#: src/gdict-source-dialog.c:573 src/gdict-source-dialog.c:587
+#: src/gdict-source-dialog.c:571 src/gdict-source-dialog.c:585
 msgid "_Close"
 msgstr "_Zatvori"
 
-#: src/gdict-source-dialog.c:578
+#: src/gdict-source-dialog.c:576
 msgid "_Add"
 msgstr "_Dodaj"
 
-#: src/gdict-source-dialog.c:586
+#: src/gdict-source-dialog.c:584
 msgid "C_ancel"
 msgstr "O_dustani"
 
@@ -593,81 +637,155 @@ msgstr "Rječnici"
 msgid "Strategies"
 msgstr "Strategije"
 
-#: src/gdict-window.c:413
+#: src/gdict-source.c:414
+#, c-format
+msgid "Invalid transport type “%d”"
+msgstr "Neispravna vrsta prijenosa \"%d\""
+
+#: src/gdict-source.c:442
+#, c-format
+msgid "No “%s” group found inside the dictionary source definition"
+msgstr "\"%s\" grupa nije pronađena unutar značenja izvora rječnika"
+
+#: src/gdict-source.c:458 src/gdict-source.c:491 src/gdict-source.c:515
+#: src/gdict-source.c:540
+#, c-format
+msgid "Unable to get the “%s” key inside the dictionary source definition: %s"
+msgstr "Nemoguće dobivanje \"%s\" ključa unutar značenja izvora rječnika: %s"
+
+#: src/gdict-source.c:565
+#, c-format
+msgid ""
+"Unable to get the “%s” key inside the dictionary source definition file: %s"
+msgstr ""
+"Nemoguće dobivanje \"%s\" ključa unutar datoteke značenja izvora rječnika: %s"
+
+#: src/gdict-source.c:759
+#, c-format
+msgid "Dictionary source does not have name"
+msgstr "Izvor rječnika nema naziv"
+
+#: src/gdict-source.c:768
+#, c-format
+msgid "Dictionary source “%s” has invalid transport “%s”"
+msgstr "Izvor rječnika \"%s\" ima neispravan prijenos \"%s\""
+
+#: src/gdict-speller.c:340
+msgid "Clear the list of similar words"
+msgstr "Obriši popis sličnih riječi"
+
+#: src/gdict-strategy-chooser.c:348
+msgid "Reload the list of available strategies"
+msgstr "Ponovno učitaj popis dostupnih strategija"
+
+#: src/gdict-strategy-chooser.c:359
+msgid "Clear the list of available strategies"
+msgstr "Obriši popis dostupnih strategija"
+
+#: src/gdict-window.c:410
 #, c-format
 msgid "No dictionary source available with name “%s”"
 msgstr "Nema dostupnog izvora rječnika s nazivom \"%s\""
 
-#: src/gdict-window.c:417
+#: src/gdict-window.c:414
 msgid "Unable to find dictionary source"
 msgstr "Nemoguć pronalazak izvora rječnika"
 
-#: src/gdict-window.c:433
+#: src/gdict-window.c:430
 #, c-format
 msgid "No context available for source “%s”"
 msgstr "Nema dostupnog sadržaja za izvor \"%s\""
 
-#: src/gdict-window.c:437
+#: src/gdict-window.c:434
 msgid "Unable to create a context"
 msgstr "Nemoguće stvaranje sadržaja"
 
-#: src/gdict-window.c:496
+#: src/gdict-window.c:493
 #, c-format
 msgid "%s — Dictionary"
 msgstr "%s — Rječnik"
 
-#: src/gdict-window.c:819
+#: src/gdict-window.c:816
 msgid "Save a Copy"
 msgstr "Spremi kopiju"
 
-#: src/gdict-window.c:823
+#: src/gdict-window.c:820
 msgid "_Save"
 msgstr "_Spremi"
 
-#: src/gdict-window.c:829
+#: src/gdict-window.c:826
 msgid "Untitled document"
 msgstr "Neimenovani dokument"
 
-#: src/gdict-window.c:850
+#: src/gdict-window.c:847
 #, c-format
 msgid "Error while writing to “%s”"
 msgstr "Greška pri zapisivanju na \"%s\""
 
 #. speller
-#: src/gdict-window.c:1211
+#: src/gdict-window.c:1216
 msgid "Double-click on the word to look up"
 msgstr "Dvostruki klik na riječ za pretraživanje"
 
 #. strat-chooser
-#: src/gdict-window.c:1217
+#: src/gdict-window.c:1222
 msgid "Double-click on the matching strategy to use"
 msgstr "Dvostruki klik na podudarajuću strategiju za korištenje"
 
 #. source-chooser
-#: src/gdict-window.c:1222
+#: src/gdict-window.c:1227
 msgid "Double-click on the source to use"
 msgstr "Dvostruki klik na izvor za korištenje"
 
-#: src/gdict-window.c:1408
+#: src/gdict-window.c:1419
 msgid "Similar words"
 msgstr "Slične riječi"
 
-#: src/gdict-window.c:1439
+#: src/gdict-window.c:1450
 msgid "Available strategies"
 msgstr "Dostupne strategije"
 
-#: src/gdict-window.c:1455
+#: src/gdict-window.c:1466
 msgid "Dictionary sources"
 msgstr "Izvori rječnika"
+
+#: src/gdict-utils.c:93
+msgid "GDict debugging flags to set"
+msgstr "GDict postavljanje oznaka otklanjanja grešaka"
+
+#: src/gdict-utils.c:93 src/gdict-utils.c:95
+msgid "FLAGS"
+msgstr "OZNAKE"
+
+#: src/gdict-utils.c:95
+msgid "GDict debugging flags to unset"
+msgstr "GDict uklanjanje oznaka otklanjanja grešaka"
+
+#: src/gdict-utils.c:150
+msgid "GDict Options"
+msgstr "GDict mogućnosti"
+
+#: src/gdict-utils.c:151
+msgid "Show GDict Options"
+msgstr "Prikaži GDict mogućnosti"
+
+#~ msgid "Default"
+#~ msgstr "Default"
+
+#~ msgid "accessories-dictionary"
+#~ msgstr "accessories-dictionary"
+
+#~ msgid "spanish"
+#~ msgstr "spanish"
+
+#~ msgid "Spanish Dictionaries"
+#~ msgstr "Španjolski rječnici"
 
 #~ msgid "Help"
 #~ msgstr "Priručnik"
 
 #~ msgid "About"
 #~ msgstr "O programu"
-
-#~ msgid "_Quit"
-#~ msgstr "_Zatvori"
 
 #~ msgid "H_ostname:"
 #~ msgstr "Ime _računala:"
@@ -817,9 +935,6 @@ msgstr "Izvori rječnika"
 #~ msgid "Find a word or phrase in the document"
 #~ msgstr "Nađi riječ ili izraz u dokumentu"
 
-#~ msgid "Find Ne_xt"
-#~ msgstr "_Traži sljedeće"
-
 #~ msgid "Find Pre_vious"
 #~ msgstr "Traži _prethodno"
 
@@ -831,9 +946,6 @@ msgstr "Izvori rječnika"
 
 #~ msgid "Go to the first definition"
 #~ msgstr "Idi na prvo značenje"
-
-#~ msgid "Go to the last definition"
-#~ msgstr "Idi na zadnje značenje"
 
 #~ msgid "_Contents"
 #~ msgstr "_Sadržaj"
