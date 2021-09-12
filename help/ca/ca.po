@@ -94,7 +94,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/definition.page:43
 msgid "Press <key>Return</key> to search."
-msgstr "Premeu <key>Retorna</key> per a cercar."
+msgstr "Premeu <key>Retorn</key> per a cercar."
 
 #. (itstool) path: page/p
 #: C/definition.page:47
@@ -108,11 +108,11 @@ msgid ""
 "that shows all the results."
 msgstr ""
 "El <app>Diccionari</app> cercarà la vostra font de diccionari seleccionada i us"
-" mostrarà el resultat del primer diccionari de la font. Per veure els "
+" mostrarà el resultat del primer diccionari de la font. Per a veure els "
 "resultats d'altres diccionaris que estan en la mateixa font, premeu el botó "
 "del menú a la cantonada superior dreta de la finestra i seleccioneu <link "
 "xref=\"similar-words\"><guiseq><gui style=\"menuitem\">Visualitza</gui><gui "
-"style=\"menuitem\">Paraules similars</gui></guiseq></link> per mostrar una "
+"style=\"menuitem\">Paraules similars</gui></guiseq></link> per a mostrar una "
 "barra lateral que mostri tots els resultats."
 
 #. (itstool) path: page/title
@@ -643,7 +643,7 @@ msgid ""
 " window to end the preview."
 msgstr ""
 "Premeu <gui style=\"button\">Imprimeix</gui> per a imprimir la definició o "
-"tancar la finestra per acabar la vista prèvia."
+"tancar la finestra per a acabar la vista prèvia."
 
 #. (itstool) path: section/p
 #: C/print.page:63
@@ -690,7 +690,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/print.page:84
 msgid "Press <gui style=\"button\">Print</gui> to print the definition."
-msgstr "Premeu<gui style=\"button\">Imprimeix</gui> per a imprimir la definició."
+msgstr "Premeu <gui style=\"button\">Imprimeix</gui> per a imprimir la definició."
 
 #. (itstool) path: info/desc
 #: C/prob-retrieving-definition.page:24
