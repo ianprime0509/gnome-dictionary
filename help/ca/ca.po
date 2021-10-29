@@ -666,7 +666,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/print.page:72
 msgid "Select <gui style=\"tab\">General</gui>."
-msgstr "Selecciona <gui style=\"tab\">general</gui>."
+msgstr "Seleccioneu <gui style=\"tab\">General</gui>."
 
 #. (itstool) path: item/p
 #: C/print.page:75
@@ -898,7 +898,7 @@ msgstr "Seleccioneu la font de diccionari que voleu esborrar."
 #. (itstool) path: item/p
 #: C/sources-delete.page:46
 msgid "Press <gui style=\"button\">-</gui>."
-msgstr "Premeu <gui style=\"button\">-</gui>-"
+msgstr "Premeu <gui style=\"button\">-</gui>."
 
 #. (itstool) path: item/p
 #: C/sources-delete.page:49
@@ -1036,7 +1036,7 @@ msgid ""
 " it or pressing <key>Enter</key>."
 msgstr ""
 "Seleccioneu la font de diccionari que voleu utilitzar, feu doble clic o "
-"premeu <key>Introduïu</key>,"
+"premeu <key>Retorn</key>,"
 
 #. (itstool) path: info/desc
 #: C/text-copy.page:25
