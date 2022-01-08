@@ -214,7 +214,7 @@ msgid ""
 "currently displayed."
 msgstr ""
 "La barra de <gui>cerca</gui> apareixerà a la part superior de la finestra "
-"del <app>Diccionari</app>). Escriviu el vostre terme de cerca per a cercar "
+"del <app>Diccionari</app>. Escriviu el vostre terme de cerca per a cercar "
 "dins de la definició que es mostra actualment."
 
 #. (itstool) path: item/p
@@ -417,7 +417,7 @@ msgstr "Cerca dreceres"
 #. (itstool) path: td/p
 #: C/keyboard-shortcuts.page:77
 msgid "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
-msgstr "<keyseq><key> Ctrl</key><key>F</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
 
 #. (itstool) path: table/title
 #: C/keyboard-shortcuts.page:93
@@ -1036,7 +1036,7 @@ msgid ""
 " it or pressing <key>Enter</key>."
 msgstr ""
 "Seleccioneu la font de diccionari que voleu utilitzar, feu doble clic o "
-"premeu <key>Retorn</key>,"
+"premeu <key>Retorn</key>."
 
 #. (itstool) path: info/desc
 #: C/text-copy.page:25
