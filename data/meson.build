@@ -3,7 +3,7 @@ subdir('appdata')
 desktop_conf = configuration_data()
 desktop_conf.set('icon', application_id)
 desktop_conf.set('application_id', application_id)
-desktop_file = i18n.merge_file('desktop',
+desktop_file = i18n.merge_file(
   input: configure_file(
     input: 'org.gnome.Dictionary.desktop.in.in',
     output: 'org.gnome.Dictionary.desktop.in',
@@ -46,7 +46,7 @@ sources = [
 ]
 
 foreach s: sources
-  i18n.merge_file('sources',
+  i18n.merge_file(
     input: '@0@.in'.format(s),
     output: s,
     install: true,
