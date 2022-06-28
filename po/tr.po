@@ -1,7 +1,7 @@
-# Turkish translation of gnome-utils.
-# Copyright (C) 2003 gnome-utils' copyright holder
-# This file is distributed under the same license as the gnome-utils package.
+# Turkish translation of gnome-dictionary.
 #
+# Copyright (C) 2003 gnome-dictionary' copyright holder
+# This file is distributed under the same license as the gnome-dictionary package.
 #
 # Barbaros Ulutaş <tebarul@yahoo.com>, 2003.
 # Rıdvan CAN <ridvan@linuxdeneyimi.com>, 2003.
@@ -15,10 +15,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils\n"
+"Project-Id-Version: gnome-dictionary master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-dictionary/"
 "issues\n"
-"POT-Creation-Date: 2020-12-10 15:51+0000\n"
+"POT-Creation-Date: 2022-05-20 21:31+0000\n"
 "PO-Revision-Date: 2021-02-04 01:43+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -47,11 +47,11 @@ msgid ""
 "using the DICT protocol to suit your needs."
 msgstr ""
 "GNOME Sözlük, sözcüklerin anlamlarını çevrim içi arayan basit sözlük "
-"uygulamasıdır. Öntanımlı olarak İngilizce anlamları aramasına rağmen "
-"kolayca İspanyolcaya geçebilir ya da gereksiniminize göre DICT iletişim "
-"kuralını kullanan diğer çevrim içi sözlükleri ekleyebilirsiniz."
+"uygulamasıdır. Öntanımlı olarak İngilizce anlamları aramasına rağmen kolayca "
+"İspanyolcaya geçebilir ya da gereksiniminize göre DICT iletişim kuralını "
+"kullanan diğer çevrim içi sözlükleri ekleyebilirsiniz."
 
-#: data/appdata/org.gnome.Dictionary.appdata.xml.in.in:34
+#: data/appdata/org.gnome.Dictionary.appdata.xml.in.in:33
 msgid "The GNOME Project"
 msgstr "GNOME Projesi"
 
@@ -79,9 +79,9 @@ msgid ""
 "dictionary source. An exclamation mark (“!”) means that all the databases "
 "present in a dictionary source should be searched"
 msgstr ""
-"Sözlük kaynağında kullanılacak öntanımlı tekil veri tabanının veya meta-"
-"veri tabanının adı. Ünlem işareti (“!”) bir sözlük kaynağında bulunan tüm "
-"veri tabanlarının aranması anlamına gelmektedir"
+"Sözlük kaynağında kullanılacak öntanımlı tekil veri tabanının veya meta-veri "
+"tabanının adı. Ünlem işareti (“!”) bir sözlük kaynağında bulunan tüm veri "
+"tabanlarının aranması anlamına gelmektedir"
 
 #: data/org.gnome.dictionary.gschema.xml:11
 msgid "The default search strategy to use"
@@ -190,7 +190,7 @@ msgstr "_Sonraki Tanım"
 
 #: src/gdict-app-menus.ui:79
 msgid "_First Definition"
-msgstr "_İlk tanım"
+msgstr "_İlk Tanım"
 
 #: src/gdict-app-menus.ui:84
 msgid "_Last Definition"
@@ -776,226 +776,3 @@ msgstr "GDict Seçenekleri"
 #: src/gdict-utils.c:151
 msgid "Show GDict Options"
 msgstr "GDict Seçeneklerini Göster"
-
-#~ msgid "Default"
-#~ msgstr "Default"
-
-#~ msgid "accessories-dictionary"
-#~ msgstr "accessories-dictionary"
-
-#~ msgid "spanish"
-#~ msgstr "spanish"
-
-#~ msgid "Spanish Dictionaries"
-#~ msgstr "İspanyolca Sözlükler"
-
-#~ msgid "Help"
-#~ msgstr "Yardım"
-
-#~ msgid "About"
-#~ msgstr "Hakkında"
-
-#~ msgid "_File"
-#~ msgstr "_Dosya"
-
-#~ msgid "_Save a Copy..."
-#~ msgstr "_Bir Kopya Kaydet..."
-
-#~ msgid "_Edit"
-#~ msgstr "_Düzenle"
-
-#~ msgid "Select _All"
-#~ msgstr "_Tümünü Seç"
-
-#~ msgid "Find Pre_vious"
-#~ msgstr "Ö_ncekini Bul"
-
-#~ msgid "Available _Dictionaries"
-#~ msgstr "Kullanılabilir _Sözlükler"
-
-#~ msgid "H_ostname:"
-#~ msgstr "_Makine Adı"
-
-#~ msgid "Client Name"
-#~ msgstr "İstemci İsmi"
-
-#~ msgid "The name of the client of the context object"
-#~ msgstr "Bağlam nesnesi istemcisinin ismi"
-
-#~ msgid "The hostname of the dictionary server to connect to"
-#~ msgstr "Bağlanılacak sözlük sunucusunun makine adı"
-
-#~ msgid "Port"
-#~ msgstr "Kapı"
-
-#~ msgid "The port of the dictionary server to connect to"
-#~ msgstr "Sözlük sunucusuna bağlanılacak kapı"
-
-#~ msgid "Status"
-#~ msgstr "Durum"
-
-#~ msgid "The status code as returned by the dictionary server"
-#~ msgstr "Sözlük sunucusundan dönen durum kodu"
-
-#~ msgid "Local Only"
-#~ msgstr "Sadece Yerel"
-
-#~ msgid "Whether the context uses only local dictionaries or not"
-#~ msgstr "Bağlamın yerel sözlükleri kullanıp kullanmayacağı"
-
-#~ msgid "Filename"
-#~ msgstr "Dosya adı"
-
-#~ msgid "The filename used by this dictionary source"
-#~ msgstr "Sözlük sunucusunda kullanılan dosya adı"
-
-#~ msgid "Name"
-#~ msgstr "İsim"
-
-#~ msgid "The display name of this dictionary source"
-#~ msgstr "Bu sözlük kaynağının görünen adı"
-
-#~ msgid "Description"
-#~ msgstr "Betimleme"
-
-#~ msgid "The description of this dictionary source"
-#~ msgstr "Bu sözlük kaynağının tanımı"
-
-#~ msgid "Editable"
-#~ msgstr "Düzenlenebilir"
-
-#~ msgid "Whether the dictionary source is editable or not"
-#~ msgstr "Sözlük kaynağı düzenlenebilir mi"
-
-#~ msgid "Database"
-#~ msgstr "Veritabanı"
-
-#~ msgid "The default database of this dictionary source"
-#~ msgstr "Bu sözlük kaynağının öntanımlı veritabanı"
-
-#~ msgid "Strategy"
-#~ msgstr "Strateji"
-
-#~ msgid "The default strategy of this dictionary source"
-#~ msgstr "Bu sözlük kaynağının öntanımlı stratejisi"
-
-#~ msgid "Transport"
-#~ msgstr "Taşıma"
-
-#~ msgid "The transport mechanism used by this dictionary source"
-#~ msgstr "Bu sözlük sunucusu tarafından kullanılacak taşıma mekanizması"
-
-#~ msgid "Context"
-#~ msgstr "Bağlam"
-
-#~ msgid "The GdictContext bound to this source"
-#~ msgstr "Bu kaynağa bağlanacak GdictContext "
-
-#~ msgid "Paths"
-#~ msgstr "Yollar"
-
-#~ msgid "Search paths used by this object"
-#~ msgstr "Bu nesne tarafından kullanılan arama yolları"
-
-#~ msgid "Sources"
-#~ msgstr "Kaynaklar"
-
-#~ msgid "Dictionary sources found"
-#~ msgstr "Bulunan sözlük kaynakları"
-
-#~ msgid "The GdictContext object used to get the word definition"
-#~ msgstr "Kelime tanımı alınırken kullanılan GdictContext nesnesi"
-
-#~ msgid "The database used to query the GdictContext"
-#~ msgstr "GdictContext sorgusu için kullanılacak veritabanı"
-
-#~ msgid "The strategy used to query the GdictContext"
-#~ msgstr "GdictContext sorgulamak için kullanılacak strateji"
-
-#~ msgid "Double-click on the database to use"
-#~ msgstr "Kullanılacak veri tabanının üstüne çift tıklayın"
-
-#~ msgid "Available dictionaries"
-#~ msgstr "Ulaşılabilir sözlükler"
-
-#~ msgid "_New"
-#~ msgstr "_Yeni"
-
-#~ msgid "_Copy"
-#~ msgstr "_Kopyala"
-
-#~ msgid "S_tatusbar"
-#~ msgstr "_Durum çubuğu"
-
-#~ msgid "Not found"
-#~ msgstr "Bulunamadı"
-
-#~ msgid "F_ind:"
-#~ msgstr "_Bul:"
-
-#~ msgid "_Previous"
-#~ msgstr "Ö_nceki"
-
-#~ msgid "_Next"
-#~ msgstr "_Sonraki"
-
-#~ msgid "Searching for '%s'..."
-#~ msgstr "'%s' aranıyor..."
-
-#~ msgid "No definitions found"
-#~ msgstr "Tanım bulunamadı"
-
-#~ msgid "A definition found"
-#~ msgid_plural "%d definitions found"
-#~ msgstr[0] "%d tanım bulundu"
-
-#~ msgid "Dictionary source `%s' selected"
-#~ msgstr "Sözlük kaynağı `%s' seçildi"
-
-#~ msgid "Strategy `%s' selected"
-#~ msgstr "Strateji `%s' seçildi"
-
-#~ msgid "Database `%s' selected"
-#~ msgstr "Veritabanı `%s' seçildi"
-
-#~ msgid "Word `%s' selected"
-#~ msgstr "`%s' kelimesi seçildi"
-
-#~ msgid "Look _up"
-#~ msgstr "A_ra"
-
-#~ msgid " - Look up words in dictionaries"
-#~ msgstr " - Kelimeleri sözlüklerde ara"
-
-#~ msgid "Available _Databases"
-#~ msgstr "Ulaşılabilir _Veri tabanları"
-
-#~ msgid "French Dictionaries from Wikipedia"
-#~ msgstr "Vikipedi'den Fransızca Sözlükler"
-
-#~ msgid "New look up"
-#~ msgstr "Yeni arama"
-
-#~ msgid "Preview this document"
-#~ msgstr "Bu belgeyi önizle"
-
-#~ msgid "_Print..."
-#~ msgstr "_Yazdır..."
-
-#~ msgid "Print this document"
-#~ msgstr "Bu belgeyi yazdır"
-
-#~ msgid "Find a word or phrase in the document"
-#~ msgstr "Döküman içinde kelime ya da deyim ara"
-
-#~ msgid "Go to the previous definition"
-#~ msgstr "Önceki tanıma git"
-
-#~ msgid "Go to the next definition"
-#~ msgstr "Sonraki tanıma git"
-
-#~ msgid "Go to the first definition"
-#~ msgstr "İlk tanıma git"
-
-#~ msgid "_Contents"
-#~ msgstr "_İçindekiler"
