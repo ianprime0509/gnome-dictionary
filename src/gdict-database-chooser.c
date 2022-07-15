@@ -47,11 +47,12 @@
 
 struct _GdictDatabaseChooserPrivate
 {
-  GtkListStore *store;
+  GtkTreeModel *store;
 
   GtkWidget *treeview;
   GtkWidget *clear_button;
   GtkWidget *refresh_button;
+  GtkWidget *search_entry;
   GtkWidget *buttons_box;
   
   GdictContext *context;
@@ -303,6 +304,42 @@ selection_changed_cb (GtkTreeSelection *selection,
   g_signal_emit (user_data, db_chooser_signals[SELECTION_CHANGED], 0);
 }
 
+static void
+search_entry_changed_cb (GtkSearchEntry *entry,
+                         gpointer        user_data)
+{
+  GdictDatabaseChooser *chooser = GDICT_DATABASE_CHOOSER (user_data);
+
+  gtk_tree_model_filter_refilter (GTK_TREE_MODEL_FILTER (chooser->priv->store));
+}
+
+static gboolean
+is_database_visible (GtkTreeModel *model,
+                     GtkTreeIter  *iter,
+                     gpointer      user_data)
+{
+  GdictDatabaseChooser *chooser = GDICT_DATABASE_CHOOSER (user_data);
+  const gchar *search_text;
+  gchar *search_text_case, *item_text, *item_text_case;
+  gboolean matches;
+
+  search_text = gtk_entry_get_text (GTK_ENTRY (chooser->priv->search_entry));
+  if (search_text[0] == '\0')
+    return TRUE;
+  search_text_case = g_utf8_casefold (search_text, -1);
+  gtk_tree_model_get (model, iter,
+                      DB_COLUMN_DESCRIPTION, &item_text,
+                      -1);
+  item_text_case = g_utf8_casefold (item_text, -1);
+  g_free (item_text);
+
+  matches = strstr (item_text_case, search_text_case) != NULL;
+
+  g_free (search_text_case);
+  g_free (item_text_case);
+  return matches;
+}
+
 static GObject *
 gdict_database_chooser_constructor (GType                  type,
 				    guint                  n_params,
@@ -344,6 +381,7 @@ gdict_database_chooser_constructor (GType                  type,
   priv->treeview = gtk_tree_view_new ();
   gtk_tree_view_set_model (GTK_TREE_VIEW (priv->treeview),
 		  	   GTK_TREE_MODEL (priv->store));
+  gtk_tree_view_set_search_column (GTK_TREE_VIEW (priv->treeview), -1);
   gtk_tree_view_set_headers_visible (GTK_TREE_VIEW (priv->treeview), FALSE);
   gtk_tree_view_set_activate_on_single_click (GTK_TREE_VIEW (priv->treeview), TRUE);
   gtk_tree_view_append_column (GTK_TREE_VIEW (priv->treeview), column);
@@ -382,6 +420,17 @@ gdict_database_chooser_constructor (GType                  type,
   gtk_widget_show (priv->clear_button);
   gtk_widget_set_tooltip_text (priv->clear_button,
                                _("Clear the list of available databases"));
+
+  priv->search_entry = gtk_search_entry_new ();
+  g_signal_connect (priv->search_entry, "search-changed",
+                    G_CALLBACK (search_entry_changed_cb),
+                    chooser);
+  gtk_box_pack_end (GTK_BOX (hbox), priv->search_entry, FALSE, FALSE, 0);
+  gtk_tree_view_set_search_entry (GTK_TREE_VIEW (priv->treeview),
+                                  GTK_ENTRY (priv->search_entry));
+  gtk_widget_show (priv->search_entry);
+  gtk_widget_set_tooltip_text (priv->search_entry,
+                               _("Search the list of available databases"));
 
   gtk_box_pack_end (GTK_BOX (chooser), hbox, FALSE, FALSE, 0);
   gtk_widget_show (hbox);
@@ -474,6 +523,7 @@ static void
 gdict_database_chooser_init (GdictDatabaseChooser *chooser)
 {
   GdictDatabaseChooserPrivate *priv;
+  GtkListStore *list_store;
 
   chooser->priv = priv = gdict_database_chooser_get_instance_private (chooser);
 
@@ -482,11 +532,17 @@ gdict_database_chooser_init (GdictDatabaseChooser *chooser)
   priv->results = -1;
   priv->context = NULL;
 
-  priv->store = gtk_list_store_new (DB_N_COLUMNS,
-		                    G_TYPE_INT,    /* db_type */
-		                    G_TYPE_STRING, /* db_name */
-				    G_TYPE_STRING, /* db_desc */
-                                    G_TYPE_INT     /* db_current */);
+  list_store = gtk_list_store_new (DB_N_COLUMNS,
+                                   G_TYPE_INT,    /* db_type */
+                                   G_TYPE_STRING, /* db_name */
+                                   G_TYPE_STRING, /* db_desc */
+                                   G_TYPE_INT     /* db_current */);
+  priv->store = gtk_tree_model_filter_new (GTK_TREE_MODEL (list_store), NULL);
+  gtk_tree_model_filter_set_visible_func (GTK_TREE_MODEL_FILTER (priv->store),
+                                          is_database_visible,
+                                          chooser,
+                                          NULL);
+  g_object_unref (list_store);
 
   priv->start_id = 0;
   priv->end_id = 0;
@@ -733,6 +789,7 @@ database_found_cb (GdictContext  *context,
 {
   GdictDatabaseChooser *chooser = GDICT_DATABASE_CHOOSER (user_data);
   GdictDatabaseChooserPrivate *priv = chooser->priv;
+  GtkListStore *store = GTK_LIST_STORE (gtk_tree_model_filter_get_model ( GTK_TREE_MODEL_FILTER (priv->store)));
   GtkTreeIter iter;
   const gchar *name, *full_name;
   gint weight = PANGO_WEIGHT_NORMAL;
@@ -750,13 +807,13 @@ database_found_cb (GdictContext  *context,
               name,
               full_name);
   
-  gtk_list_store_append (priv->store, &iter);
-  gtk_list_store_set (priv->store, &iter,
-		      DB_COLUMN_TYPE, DATABASE_NAME,
-		      DB_COLUMN_NAME, name,
-		      DB_COLUMN_DESCRIPTION, full_name,
+  gtk_list_store_append (store, &iter);
+  gtk_list_store_set (store, &iter,
+                      DB_COLUMN_TYPE, DATABASE_NAME,
+                      DB_COLUMN_NAME, name,
+                      DB_COLUMN_DESCRIPTION, full_name,
                       DB_COLUMN_CURRENT, weight,
-		      -1);
+                      -1);
 
   priv->results += 1;
 }
@@ -829,13 +886,14 @@ gdict_database_chooser_refresh (GdictDatabaseChooser *chooser)
   if (db_error)
     {
       GtkTreeIter iter;
+      GtkListStore *store = GTK_LIST_STORE (gtk_tree_model_filter_get_model (GTK_TREE_MODEL_FILTER (priv->store)));
 
-      gtk_list_store_append (priv->store, &iter);
-      gtk_list_store_set (priv->store, &iter,
-		      	  DB_COLUMN_TYPE, DATABASE_ERROR,
-			  DB_COLUMN_NAME, _("Error while matching"),
-			  DB_COLUMN_DESCRIPTION, NULL,
-			  -1);
+      gtk_list_store_append (store, &iter);
+      gtk_list_store_set (store, &iter,
+                          DB_COLUMN_TYPE, DATABASE_ERROR,
+                          DB_COLUMN_NAME, _("Error while matching"),
+                          DB_COLUMN_DESCRIPTION, NULL,
+                          -1);
 
       g_warning ("Error while looking for databases: %s",
                  db_error->message);
@@ -856,14 +914,16 @@ void
 gdict_database_chooser_clear (GdictDatabaseChooser *chooser)
 {
   GdictDatabaseChooserPrivate *priv;
+  GtkListStore *store;
 
   g_return_if_fail (GDICT_IS_DATABASE_CHOOSER (chooser));
 
   priv = chooser->priv;
+  store = GTK_LIST_STORE (gtk_tree_model_filter_get_model (GTK_TREE_MODEL_FILTER (priv->store)));
 
   gtk_tree_view_set_model (GTK_TREE_VIEW (priv->treeview), NULL);
 
-  gtk_list_store_clear (priv->store);
+  gtk_list_store_clear (store);
   priv->results = 0;
 
   gtk_tree_view_set_model (GTK_TREE_VIEW (priv->treeview),
